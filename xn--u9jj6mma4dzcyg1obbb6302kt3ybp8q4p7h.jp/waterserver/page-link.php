@@ -606,6 +606,7 @@ if(isset($_GET['link_id'])) {
     countDownTimer('timer', '03/01/2021');
     <?php elseif($link_id == 59) : ?> // Frecious
     countDownTimer('timer', '04/12/2021');
+    
     <?php else : ?>
     <?php endif; ?>
     </script>

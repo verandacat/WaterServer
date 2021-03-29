@@ -1,0 +1,1887 @@
+#top #main_contents dl dt:after,
+#top #main_contents dl#easy_search ul:after,
+#main_contents dl dt:after,
+#main_contents dl#easy_search ul:after {
+    visibility: visible;
+}
+
+#top #main_contents dl#campaign_info dt,
+#top #main_contents dl#direct_search dt,
+#top #main_contents dl#easy_search dt,
+#top #main_contents dl#easy_search,
+#top #main_contents dl#campaign_info,
+#top #main_contents dl#direct_search,
+#main_contents dl#campaign_info dt,
+#main_contents dl#direct_search dt,
+#main_contents dl#easy_search dt,
+#main_contents dl#easy_search,
+#main_contents dl#campaign_info,
+#main_contents dl#direct_search {
+    background: none;
+    background-color: #fff;
+}
+
+button,
+fieldset,
+form,
+input,
+label,
+legend,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#entirety {
+    width: 100%;
+    overflow-x: hidden;
+    background: #eff8ff;
+}
+
+#header {
+    width: 100%;
+    height: 45px;
+    padding-bottom: 0;
+}
+
+#contents {
+    width: 100%;
+    padding-bottom: 0!important;
+}
+
+#sub_contents {
+    float: right;
+    width: 100%;
+}
+
+#main_contents {
+    width: 100%;
+    float: left;
+    padding-bottom: 0;
+}
+
+#top #main_contents dl#easy_search table,
+#main_contents dl#easy_search table {
+    width: 100%;
+}
+
+#top #main_contents dl#easy_search li {
+    margin: 3px 0;
+}
+
+#titlebar {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    background: rgb(254, 255, 255);
+    box-shadow: 0px 4px 4px rgb(17, 17, 17, .2);
+    z-index: 10;
+}
+
+
+/* #header:after{
+	display: block;
+	content: "";
+	width: 98%;
+	position: absolute;
+	bottom: -6px;
+	left: 50%;
+	height: 1px;
+	background-color: rgba(0,0,0,0.05);
+	visibility: visible;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+} */
+
+#header #favorite {
+    float: none;
+    position: absolute;
+    right: 20px;
+    margin: 0;
+    margin-top: -26px;
+    background: none;
+    background-color: #eff8ff;
+    border-radius: 3px 3px 0 0;
+    padding: 8px 12px;
+    padding-bottom: 12px;
+    z-index: 100;
+}
+
+#fav_button {
+    border-radius: 100px;
+    width: 116px;
+    height: 24px;
+    background-image: url(../spimg/fab_b.png);
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 24px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#top #main_contents dl#easy_search dt,
+#main_contents dl#easy_search dt,
+dl dt,
+#contents #main_contents .result.pickup dt {
+    background-image: url(../spimg/new-sp-fv.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 143px;
+}
+
+@media (max-width: 320px) {
+    #top #main_contents dl#easy_search dt,
+    #main_contents dl#easy_search dt,
+    dl dt,
+    #contents #main_contents .result.pickup dt {
+        background-size: 100%;
+        height: 120px;
+    }
+    #btn_search_start {
+        margin: 0 10px !important;
+    }
+    #morebutton:after {
+        left: 0!important;
+    }
+    .top_rank_banner h2 {
+        font-size: 1.2rem!important;
+    }
+}
+
+.result.pickup dt {
+    background-image: url(../spimg/pick.png) !important;
+    background-size: 372px !important;
+    background-position: center top !important;
+    font-size: 24px !important;
+    padding-top: 43px !important;
+}
+
+dl#easy_search dt .sss,
+#top #main_contents dl#easy_search dt .sss {
+    font-size: 21px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#side_menu_page dl.ranking dt,
+dl dt {
+    height: 60px;
+    background: none;
+}
+
+.sc1 {
+    position: relative;
+    top: -4px;
+}
+
+#top #main_contents dl#easy_search dd,
+#main_contents dl#easy_search dd {
+    background: none;
+}
+
+#contents #main_contents .result.pickup dt:after,
+#top #main_contents dl#easy_search>dt:first-child:after,
+#main_contents dl#easy_search>dt:first-child:after,
+dl>dt:first-child:after,
+.contents_title:after {
+    height: 8px;
+    width: 12px;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -4px;
+    visibility: visible;
+}
+
+dl>dt.boxtitle:first-child:after {
+    height: 8px !important;
+}
+
+.box h2 {
+    position: relative;
+    border-top: 4px solid var(--sky);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#347dd4+0,2869b7+100 */
+    background: rgb(52, 125, 212);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(52, 125, 212, 1) 0%, rgba(40, 105, 183, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(52, 125, 212, 1) 0%, rgba(40, 105, 183, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(52, 125, 212, 1) 0%, rgba(40, 105, 183, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#347dd4', endColorstr='#2869b7', GradientType=0);
+    /* IE6-9 */
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 54px;
+}
+
+.official_site {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    height: 60px;
+    display: block;
+    margin-top: 20px;
+    color: #fff !important;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+.official_site span {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background: -moz-linear-gradient(180deg, #0AB04D 50%, #12A44C 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(180deg, #0AB04D 50%, #12A44C 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(180deg, #0AB04D 50%, #12A44C 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #fff !important;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    text-decoration: none !important;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 300px;
+    box-shadow: 0 5px 0px green;
+    overflow: hidden;
+    position: relative;
+}
+
+.official_site span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+
+.official_site span:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: hikari 3s ease-in-out infinite;
+}
+
+@keyframes hikari {
+    0% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0;
+    }
+    80% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0.5;
+    }
+    81% {
+        -webkit-transform: scale(4) rotate(45deg);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(50) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+.official_site ion-icon {
+    color: #fff;
+    font-size: 27px;
+    line-height: 60px;
+    position: absolute;
+    right: 20px;
+}
+
+.box h2 a {
+    color: #fff;
+    position: absolute;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: bold;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.box h2 img {
+    left: 0;
+    top: -5px;
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#footer_menu_page dl.wp_contents dt {
+    background-image: none;
+}
+
+#footer_menu_page dl.wp_contents dd {
+    background: none;
+    padding: 0;
+}
+
+#top #main_contents dl#easy_search,
+#top #main_contents dl#campaign_info,
+#top #main_contents dl#direct_search,
+#main_contents dl#easy_search,
+#main_contents dl#campaign_info,
+#main_contents dl#direct_search,
+dl#rank,
+.box,
+#search_result dl.result,
+#side_menu_page dl.ranking,
+#footer_menu_page dl.wp_contents {
+    margin: 0 auto;
+    background-image: none;
+    /* width: 100% !important; */
+    /* max-width: 372px; */
+    border-radius: 3px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#top #main_contents dl#easy_search td,
+#main_contents dl#easy_search td {
+    position: relative;
+    padding: 7px!important;
+}
+
+#main_contents dl#easy_search {
+    margin-bottom: 0!important;
+    padding-bottom: 4px;
+}
+
+.list_wide li {
+    font-size: 12px;
+}
+
+.list_wide li,
+.list_widesp li {
+    width: 50% !important;
+}
+
+.list_widesp {
+    position: relative;
+}
+
+.list_widesp:after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100% !important;
+    width: 1px;
+    background-color: #e5e5e5;
+    top: 0px;
+    left: 50%;
+    visibility: visible !important;
+}
+
+.list_wide input[type="checkbox"] {
+    background: #eee;
+    box-shadow: inset 0 2px 3px rgb(17, 17, 17, .2);
+}
+
+#top #main_contents dl#easy_search .list_widesp li:last-child,
+#main_contents dl#easy_search .list_widesp li:last-child {
+    padding-left: 20px;
+}
+
+#top #main_contents dl#easy_search table,
+#main_contents dl#easy_search table {
+    border-top: none;
+}
+
+#top #main_contents dl#easy_search dl#search_more dt,
+#main_contents dl#easy_search dl#search_more dt {
+    height: 30px;
+    padding: 0 30px;
+    margin-top: 5px;
+}
+
+#morebutton {
+    position: relative;
+    background-color: #C9E7FF;
+    border: none;
+    border-bottom: 2px solid #99CDFF;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 30px;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    text-shadow: none;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#morebutton ion-icon {
+    font-size: 1.3rem;
+    color: var(--navy);
+}
+
+#top #main_contents dl#easy_search dl#search_more,
+#main_contents dl#easy_search dl#search_more {
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+#top #main_contents dl#easy_search dd,
+#main_contents dl#easy_search dd {
+    padding-bottom: 15px;
+    width: 95%;
+    margin: 10px auto 10px;
+    background: bottom;
+    border: 1px solid var(--lemon);
+}
+
+#btn_search_start {
+    position: relative;
+    margin: 0 30px !important;
+    height: 37px;
+    width: auto !important;
+    border-radius: 300px;
+    background-position: center;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../spimg/button.png);
+    background-size: auto 56px;
+    box-shadow: 0 0 0 3px var(--sky);
+    text-align: center;
+    line-height: 37px;
+    font-size: 14px;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+#btn_search_start ion-icon {
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.boxtitle {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 10px 5px;
+    height: auto!important;
+    border-bottom: 4px solid var(--navy);
+    background: var(--lemon);
+    color: var(--navy);
+}
+
+.rank_caption {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.plus_banner {
+    padding: 5px;
+}
+
+.plus_banner img {
+    width: 100%;
+}
+
+.rank_left_img {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px 50px;
+}
+
+.rank_left_img a {
+    width: 100%;
+    height: 100%;
+    margin: 1px;
+    display: inline-block;
+    /* border: 1px solid #eee; */
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.1);
+    /* display: inline-flex; */
+}
+
+.rank_left_img a.active {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rank_left_img img {
+    width: 100%;
+    display: inline-block;
+}
+
+.rankright {
+    height: auto;
+    display: block;
+    color: #e72323;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+}
+
+.rankright img {
+    display: inline-block;
+}
+
+.rank_descript {
+    padding: 12px;
+    line-height: 1.8em;
+    font-size: 16px!important;
+}
+
+.box.ranking table {
+    border: 1px solid #D9EEFE;
+    border-radius: 3px;
+    margin: 12px 0;
+    width: 100%;
+}
+
+.box.ranking table th {
+    background-color: #CAE7FE;
+    padding: 8px 12px;
+}
+
+.box.ranking table th,
+.box.ranking table td,
+.box.ranking table {
+    border-collapse: collapse;
+    border: 1px solid var(--navy);
+}
+
+.box.ranking table td {
+    padding: 4px;
+}
+
+.ranking_resultsp {
+    padding-bottom: 20px;
+    margin: 5px;
+    border: 2px solid #eee;
+}
+
+.ranking_resultsp:last-child {
+    margin-bottom: 0;
+}
+
+.moreranklink {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdca68+0,fcc04c+100 */
+    background: rgb(253, 202, 104);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(253, 202, 104, 1) 0%, rgba(252, 192, 76, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(253, 202, 104, 1) 0%, rgba(252, 192, 76, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(253, 202, 104, 1) 0%, rgba(252, 192, 76, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fdca68', endColorstr='#fcc04c', GradientType=0);
+    /* IE6-9 */
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    font-size: 20px;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 52px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0, 0.3);
+    width: auto;
+    height: 52px;
+    display: block;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.flist {}
+
+.flist li {
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.flist li:last-child {
+    border: none;
+}
+
+.flist li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    padding-left: 80px;
+    height: 64px;
+    line-height: 64px;
+}
+
+.flist li a:after,
+.flist li a:before {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    border: 8px solid transparent;
+    border-left: 14px solid #FCC55C;
+    content: "";
+    display: block;
+    visibility: visible !important;
+    margin-top: -8px;
+    margin-right: 4px;
+}
+
+.flist li a:after {
+    border-left: 4px solid #fff;
+    margin-right: 14px;
+}
+
+.flist li:after {
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    width: 52px;
+    height: 52px;
+    background-size: 52px;
+    background-color: #fff;
+    visibility: visible !important;
+    content: "";
+    display: block !important;
+    box-shadow: inset 0 0 0 1px #ccc;
+}
+
+.flist li:nth-child(1):after {
+    background-image: url(../spimg/tennen.png);
+}
+
+.flist li:nth-child(2):after {
+    background-image: url(../spimg/ro.png);
+}
+
+.flist li:nth-child(3):after {
+    background-image: url(../spimg/ele.png);
+}
+
+.flist li:nth-child(4):after {
+    background-image: url(../spimg/kakaku.png);
+}
+
+.flist li:nth-child(5):after {
+    background-image: url(../spimg/bin.png);
+}
+
+.flist li:nth-child(6):after {
+    background-image: url(../spimg/riben.png);
+}
+
+.flist li:nth-child(7):after {
+    background-image: url(../spimg/desk.png);
+}
+
+.flist li:nth-child(8):after {
+    background-image: url(../spimg/pru.png);
+}
+
+.clist,
+.clist th,
+.clist td {
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.clist {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.clist th {
+    width: 44px;
+    font-size: 11px;
+    padding: 12px 16px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #4779B9;
+}
+
+.clist td {
+    padding: 12px 0;
+}
+
+.folist {
+    padding: 0 20px;
+}
+
+.folist li {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 12px !important;
+}
+
+.folist li a {
+    position: relative;
+    display: block;
+    height: 72px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4fa0d2+0,69aed8+100 */
+    background: rgb(79, 160, 210);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(79, 160, 210, 1) 0%, rgba(105, 174, 216, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(79, 160, 210, 1) 0%, rgba(105, 174, 216, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(79, 160, 210, 1) 0%, rgba(105, 174, 216, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4fa0d2', endColorstr='#69aed8', GradientType=0);
+    /* IE6-9 */
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.folist span {
+    position: absolute;
+    padding-left: 52px;
+    font-size: 14px;
+    line-height: 22px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.folist li a:before {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    content: "";
+    display: block;
+    visibility: visible !important;
+    border-radius: 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) inset, 0 0 1px rgba(0, 0, 0, 0.2);
+    left: 14px;
+    top: 50%;
+    margin-top: -10px;
+    border: none;
+}
+
+.folist li a:after {
+    position: absolute;
+    border: 5px solid transparent;
+    border-left: 9px solid #FCC55C;
+    left: 20px;
+    top: 50%;
+    margin-top: -5px;
+    content: "";
+    display: block;
+    visibility: visible !important;
+}
+
+#footer_navi01 dt {
+    font-size: 16px;
+    color: #fff !important;
+    padding-left: 20px !important;
+    padding-top: 8px !important;
+}
+
+.titlecap {
+    margin-top: 0px;
+    color: #666;
+    padding: 10px;
+}
+
+.rank_item_title {
+    margin-bottom: 0!important;
+}
+
+.contents_title {
+    padding-left: 0 !important;
+    background: none !important;
+    float: none !important;
+    margin-top: 0 !important;
+    font-size: 16px !important;
+}
+
+#footer_menu_page dl.wp_contents dt {
+    padding: 20px;
+    height: auto;
+}
+
+#footer_menu_page #main_contents .entry {
+    margin: 0;
+}
+
+#footer_menu_page #main_contents h1 {
+    max-width: 372px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+#footmark {
+    width: 100%;
+    max-width: 372px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    position: relative;
+    background-image: none;
+    margin-top: 4px;
+}
+
+#footmark:after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0px;
+    height: 100%;
+    width: 6px;
+    background-color: #ddd;
+    top: 0;
+}
+
+#ranking_notice {
+    width: 100%;
+    max-width: 372px;
+    margin: 0 auto !important;
+    padding: 20px;
+}
+
+#side_menu_page #main_contents h1,
+#search_result #main_contents h1 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 372px;
+}
+
+#search_result #main_contents h1 img {
+    height: auto !important;
+}
+
+#search_result dl.result {
+    background-image: none;
+}
+
+#search_result dl.result dt {
+    background: none;
+}
+
+.s_items {
+    padding: 0 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.pickup .s_items {
+    padding-top: 4px;
+}
+
+.search_result_items {
+    margin-top: 20px;
+}
+
+.s_items_header {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.upper_left {
+    width: 72px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.upper_left img {
+    width: 60px;
+    height: 60px;
+}
+
+.list_item_title {
+    display: table-cell;
+    font-size: 20px;
+    position: relative;
+    height: 100%;
+    font-weight: bold;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    color: #2c3b82;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), 0 -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.list_item_title a {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #2c3b82;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.s_items_upper {
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+    table-layout: fixed;
+}
+
+.s_items_upper .upper_right {
+    width: 100%;
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.s_items_table {
+    padding: 5px;
+}
+
+.s_items_table table,
+#search_result dl.result table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+}
+
+.s_items_table td,
+#search_result dl.result td {
+    font-size: 13px;
+    padding: 4px;
+}
+
+.s_items_table th,
+#search_result dl.result th,
+#search_result dl.result.pickup th {
+    border: none;
+    background-color: #ff8d1c;
+    width: 90px;
+    font-size: 13px !important;
+    font-weight: bold;
+    color: var(--navy);
+    text-align: center !important;
+    padding: 3px !important;
+    border: 1px solid #eee;
+}
+
+#search_result dl.result.pickup th {
+    background-color: pink;
+    color: #111;
+}
+
+.s_items_table th,
+#search_result dl.result th {
+    background-color: #FFE69D;
+    width: 90px;
+}
+
+.s_items_table th.vl,
+#search_result dl.result th.vl {
+    font-size: 10px;
+}
+
+.s_items_table.quad,
+#search_result dl.result .quad {
+    margin-bottom: -1px !important;
+    table-layout: fixed;
+}
+
+.s_items_table table {
+    margin-top: 0 !important;
+}
+
+.s_items_table.quad table {
+    margin-bottom: 0 !important;
+    margin-top: 0px !important;
+}
+
+.s_items_table.quad table,
+.quad table {
+    table-layout: fixed;
+}
+
+.s_items_table.quad th,
+#search_result dl.result .quad th {
+    width: auto;
+    width: 90px;
+}
+
+#search_result dl.result .sort_box_a {
+    table-layout: fixed;
+}
+
+#search_result dl.result .sort_box_a,
+#search_result dl.result .sort_box_a tr,
+#search_result dl.result .sort_box_a td,
+#search_result dl.result .sort_box_a th {
+    border: none !important;
+}
+
+#search_result dl.result .sort_box {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.s_items_table td,
+#search_result dl.result .sort_box td {
+    padding: 8px 0;
+}
+
+.s_items_table td,
+#search_result dl.result td {
+    width: auto;
+    text-align: center;
+}
+
+.s_items_table td span,
+#search_result dl.result .sort_box_a td span {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 0;
+    position: relative;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    font-size: 13px;
+    color: #2c3b82;
+    font-weight: bold;
+}
+
+#search_result dl.result .sort_box_a td span:after {
+    height: 1px;
+    width: 70%;
+    left: 50%;
+    bottom: 4px;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    position: absolute;
+    display: block;
+    content: "";
+    background-color: #bddbf2;
+}
+
+.s_items_table td a,
+#search_result dl.result .sort_box_a td a {
+    margin: 0 8px;
+}
+
+.top_rank_banner {
+    margin-bottom: 0;
+    display: block;
+    background-color: var(--sky);
+}
+
+.sprankbanner {
+    width: 100%;
+    max-width: 372px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.campbanner {
+    max-width: 372px;
+    width: 100%;
+    padding: 12px;
+    padding-top: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.spbanner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.spbanner.b2 {
+    margin-top: 12px;
+    text-align: center;
+}
+
+strong {
+    color: #e00;
+}
+
+.entry img {
+    width: 100%;
+    height: auto;
+}
+
+.sp_top_txt {
+    background-color: #fff;
+    margin: 12px 0;
+    padding: 12px;
+    font-size: 13px;
+    border: 1px dotted #aaa;
+    color: #555;
+}
+
+.no1.sp {
+    float: left;
+    margin: 0 auto !important;
+    width: 47%;
+    margin-bottom: 12px !important;
+}
+
+@media screen and (max-width: 340px) {
+    #header h1 {
+        padding: 0;
+    }
+    #header #favorite {
+        right: -8px;
+    }
+    #header .header__sp a.header__title {
+        width: 83%!important;
+    }
+}
+
+
+/* 200708追加--CamBox */
+
+.cam-box {
+    width: 95%;
+    height: auto;
+    margin: 10px;
+    display: block;
+    border: 2px solid #F5838A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cam-box .left-con {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background: #F5838A;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cam-box .left-con img {
+    width: 30px;
+}
+
+.cam-box .left-con h4 {
+    color: #fff;
+    width: 100%;
+    font-size: 128%;
+    font-weight: bold;
+    line-height: 20px;
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+}
+
+.cam-box .right-con {
+    width: 100%;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cam-box .right-con .cam-descript {
+    font-size: 108%;
+}
+
+.red {
+    color: #D23B27;
+    font-weight: bold;
+    font-size: 118%;
+}
+
+.aka {
+    color: #dd1d03;
+}
+
+.ylw {
+    font-size: 16px;
+    background: linear-gradient(to bottom, transparent 70%, #ffe34b 20%, #ffe34b 90%, transparent 80%);
+}
+
+.font-20 {
+    font-size: 20px!important;
+}
+
+.m-box {
+    margin-top: 10px;
+}
+
+
+/* 20200720 追加改善CSS */
+
+:root {
+    --white: #fff;
+    --black: #3F3F3F;
+    --navy: #2C6AB4;
+    --sky: #DDE9FB;
+    --lemon: #FEE99D;
+    --bg-ylw: background: linear-gradient(180deg, #FEE99D 0%, #F8D763 100%);
+}
+
+p,
+strong {
+    font-size: 110%!important;
+}
+
+#contents {
+    margin: 45px auto 0;
+}
+
+#header h1.header__sp {
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+}
+
+#header .header__sp a.header__title {
+    width: 75%;
+    height: 100%;
+    background: url(../spimg/wk-logo-2.png) no-repeat 50% 50% / 250px;
+}
+
+#header .header__sp .header__toggle {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    margin-right: 0;
+    padding: 6px;
+    padding-top: 0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .header__sp .header__toggle.open span:nth-child(1) {
+    opacity: 0;
+}
+
+#header .header__sp .header__toggle.open span:nth-child(2) {
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+#header .header__sp .header__toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -6px);
+    transform-origin: center;
+}
+
+#header .header__sp .header__toggle span {
+    width: 70%;
+    height: 2px;
+    background: var(--black);
+    display: block;
+    margin-bottom: 5px;
+    transition: 1s;
+}
+
+#header .header__sp .header__toggle span:nth-child(2) {
+    background: var(--navy);
+}
+
+#header .header__sp .header__toggle span:last-child {
+    background: none;
+    height: 0;
+    font-size: 10px;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: uppercase;
+    top: -6px;
+    left: -1px;
+}
+
+.top_rank_banner {
+    text-decoration: none!important;
+    position: relative;
+}
+
+.top_rank_banner:after {
+    content: '';
+    background: url(../spimg/ranking-crown.png) no-repeat 50% 50% / cover;
+    width: 95px;
+    height: 24px;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.top_rank_banner h2 {
+    /* color: var(--white); */
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin-bottom: 0!important;
+    border-top: 10px solid var(--lemon);
+}
+
+
+/* OPEN NAVIGATION */
+
+.nav__open {
+    width: 90%;
+    height: 100vh;
+    position: fixed;
+    right: -200%;
+    top: 45px;
+    background: rgba(255, 255, 255, 0.9);
+    transition: 1s;
+    z-index: 1;
+    overflow-y: scroll;
+    border-top: 4px solid var(--navy);
+}
+
+.nav__open.open {
+    right: 0;
+}
+
+.nav__ranking {
+    display: block;
+    width: 95%;
+    position: relative;
+    background: url(../spimg/toggle-btn-bg.jpg) no-repeat 50% 50% / cover;
+    text-decoration: none!important;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px auto;
+    line-height: 22px;
+    border-radius: 10px;
+    border: 2px solid var(--white);
+    box-shadow: 0 0 5px 3px rgba(246, 184, 12, 0.4);
+}
+
+.nav__ranking span {
+    display: block;
+    font-size: 12px;
+    color: var(--black);
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.nav__ranking:after,
+.nav__ranking:before {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border: 8px solid transparent;
+    border-left: 14px solid var(--navy);
+    content: "";
+    display: block;
+    visibility: visible !important;
+    margin-top: -8px;
+    margin-right: 4px;
+}
+
+.nav__ranking img {
+    padding: 20px;
+}
+
+.nav__open h2 {
+    padding: 10px;
+    border-bottom: 4px solid var(--navy);
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--navy);
+    background: var(--sky);
+}
+
+.nav__open h2 img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav__open ul {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.nav__open ul li {
+    width: 100%;
+    height: 50px;
+    background: var(--white);
+    border-bottom: 2px solid #eee;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,0.1); */
+    position: relative;
+}
+
+.nav__open ul li:last-child {
+    border: none;
+}
+
+.nav__open ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav__open ul li a:after {
+    content: '';
+    width: 50px;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.nav__open ul li a p {
+    font-size: 15px;
+    display: flex;
+    padding-left: 78px;
+    height: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.nav__open li a p:after,
+.nav__open li a p:before {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    border: 5px solid transparent;
+    border-left: 10px solid red;
+    content: "";
+    display: block;
+    visibility: visible !important;
+    margin-top: -8px;
+    margin-right: 4px;
+}
+
+.nav__open ul li:nth-child(1) a:after {
+    background: url(../spimg/tennen.png) no-repeat 50% 50% / contain
+}
+
+.nav__open ul li:nth-child(2) a:after {
+    background: url(../spimg/ro.png) no-repeat 50% 50% / contain
+}
+
+.nav__open ul li:nth-child(3) a:after {
+    background: url(../spimg/ele.png) no-repeat 50% 50% / contain
+}
+
+.nav__open ul li:nth-child(4) a:after {
+    background: url(../spimg/kakaku.png) no-repeat 50% 50% / contain
+}
+
+.nav__open ul li:nth-child(5) a:after {
+    background: url(../spimg/bin.png) no-repeat 50% 50% / contain
+}
+
+.nav__open ul li:nth-child(6) a:after {
+    background: url(../spimg/riben.png) no-repeat 50% 50% / contain
+}
+
+.nav__open ul li:nth-child(7) a:after {
+    background: url(../spimg/desk.png) no-repeat 50% 50% / contain
+}
+
+.nav__open ul li:nth-child(8) a:after {
+    background: url(../spimg/pru.png) no-repeat 50% 50% / contain
+}
+
+
+/* SEARCH FORM */
+
+#easy_search h2.search__title {
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--navy);
+    margin-bottom: 0!important;
+    background: url(../spimg/search-title-bg.png) no-repeat 50% 50% / cover;
+    font-weight: bold;
+    position: relative;
+}
+
+#easy_search h2.search__title:after {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    background: url(../spimg/el_search-alt.png) no-repeat 50% 50% / cover;
+    position: absolute;
+    left: 50px;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+
+/* RANKING */
+
+#rank .rank__title__descript {
+    padding: 15px;
+    font-size: 16px!important;
+    color: navy;
+}
+
+.rank_point {
+    margin: 5px;
+    position: relative;
+}
+
+.rank_point h3.point_title {
+    height: 26px;
+    background: url(../spimg/point-title-img.png)no-repeat 50% 50% / 100%;
+    ;
+}
+
+.rank_point li {
+    padding: 5px 10px 5px 25px;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    color: var(--black);
+    font-size: 16px;
+    position: relative;
+}
+
+.rank_point li:before {
+    content: '';
+    background: url(../spimg/pointlist.png) no-repeat 50% 50% / 15px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    filter: invert(1);
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+
+.rank_point li:last-child {
+    border: none;
+}
+
+.star_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
+
+.star_box img {
+    width: 120px;
+}
+
+.star_box .score {
+    padding: 12px 0;
+}
+
+.star_box .score span.tensu {
+    color: #dd1d03;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.manten {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--black);
+}
+
+.top__btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: var(--navy);
+    opacity: 0;
+    transition: 1s;
+}
+
+.top__btn div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 43%;
+    top: -10%;
+    transform: translateX(-50%);
+}
+
+.top__btn span {
+    background: white;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 4px;
+    border-radius: 5px;
+    transform: translateX(-57%);
+}
+
+.top__btn span:nth-child(1) {
+    transform: rotate(-45deg);
+    left: 28%;
+}
+
+.top__btn span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+#footer_inner a#btn_pagetop {
+    display: none;
+}
+
+.morerank {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 45px auto;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    font-weight: bold;
+    background: linear-gradient(-180deg, var(--lemon), orange);
+    border: 3px solid orange;
+    color: var(--black);
+}
+
+.morerank:focus {
+    outline: none;
+}
+
+.ranking_second_wrap {
+    display: none;
+    transition: .5s;
+}
+
+.ranking_second_wrap.open {
+    display: block!important;
+    transition: .5s;
+}
+
+@media screen and (min-width: 640px) {
+    img {
+        width: 100%;
+    }
+    .campbanner {
+        max-width: 100%;
+    }
+    #header .header__sp a.header__title {
+        width: 100%;
+        background-size: 350px;
+    }
+    #top #main_contents dl#easy_search dt,
+    #main_contents dl#easy_search dt,
+    dl dt,
+    #contents #main_contents .result.pickup dt {
+        height: 35vw;
+    }
+    #footer_inner dl#footer_navi01 dt {
+        height: 50px;
+    }
+    #top #main_contents dl#easy_search,
+    #top #main_contents dl#campaign_info,
+    #top #main_contents dl#direct_search,
+    #main_contents dl#easy_search,
+    #main_contents dl#campaign_info,
+    #main_contents dl#direct_search,
+    dl#rank,
+    .box,
+    #search_result dl.result,
+    #side_menu_page dl.ranking,
+    #footer_menu_page dl.wp_contents {
+        max-width: 100%;
+    }
+    #easy_search h2.search__title {
+        font-size: 18px;
+    }
+    #rank ul.rank_point h3.point_title {
+        height: 40px;
+        background: url(../spimg/point-title-img-tablet.png)no-repeat 50% 50% / 95%;
+    }
+    #easy_search h2.search__title:after {
+        right: 70%;
+        left: inherit;
+    }
+    #btn_search_start {
+        margin: 0 130px!important;
+        height: 50px;
+        font-size: 15px;
+    }
+    #top #main_contents dl#easy_search li {
+        margin: 0 0;
+    }
+    #morebutton {
+        font-size: 14px;
+    }
+    .list_wide {
+        padding: 3px;
+    }
+    .list_wide li,
+    .list_widesp li {
+        padding-left: 40px;
+        font-size: 14px;
+    }
+    #top #main_contents dl#easy_search dd,
+    #main_contents dl#easy_search dd {
+        width: 100%;
+    }
+    #top #main_contents h2 {
+        text-align: center;
+    }
+    #rank .rank__title__descript {
+        text-align: center;
+    }
+    .ranking_resultsp {
+        width: 100%;
+    }
+    .top_rank_banner h2 {
+        font-size: 1.7rem;
+        padding: 10px 130px;
+    }
+    .rank_left_img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .box h2 a {
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .box.ranking table {
+        margin: 12px auto;
+        width: 100%;
+    }
+    .cam-box {
+        width: 99%;
+        margin: 0 auto;
+    }
+    .official_site span {
+        width: 70%;
+    }
+    .morerank {
+        width: 50%;
+        margin: 35px auto;
+    }
+    .nav__ranking {
+        padding: 30px;
+        font-size: 24px;
+    }
+    .nav__ranking span {
+        font-size: 14px;
+    }
+    .nav__open {
+        width: 70%;
+    }
+    .s_items_table th,
+    #search_result dl.result th {
+        width: 200px;
+    }
+    .ranking_resultsp {
+        padding: 5px;
+        margin: 50px 0;
+    }
+    .official_site ion-icon {
+        right: 126px;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    #easy_search h2.search__title:after {
+        right: 68%;
+        left: inherit;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #easy_search h2.search__title:after {
+        right: 66%;
+        left: inherit;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #easy_search h2.search__title:after {
+        right: 63%;
+        left: inherit;
+    }
+    .official_site ion-icon {
+        right: 172px;
+    }
+}

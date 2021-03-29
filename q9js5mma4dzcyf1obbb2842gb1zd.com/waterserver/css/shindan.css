@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/* Shindan */
+
+#SHINDAN_HEAD{
+	margin-top:-10px;
+}
+
+
+.shindan_area{
+	padding:10px;
+	background-color:#3399CC;
+	position:relative;
+	z-index:100;
+	border-radius:10px;
+}
+
+.shindan_area .main-img{
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.shindan_area p{
+	display:none;
+}
+
+.shindan_area .shindan_window{
+	padding:10px;
+	background-color:#fff;
+	border-radius:5px;
+}
+
+
+.shindan_area .shindan_window.start .btn_area span{
+	display:block;
+	padding:20px 15px;
+	text-align:center;
+	font-weight:bold;
+	font-size:150%;
+	color:#fff;
+	background-color:#FC4B4E;
+	border-bottom:3px solid #D40915;
+	text-shadow:1px 1px 0 #D40915;
+	border-radius:40px;
+	width:280px;
+	margin:20px auto;
+}
+
+ .shindan_window{
+	display:none;
+	opacity:0;
+ }
+
+/* Shindan start */
+
+ .start.shindan_window{
+		display:block;
+		opacity:100;
+ }
+
+.shindan_area .shindan_window.start{
+	padding:40px 10px;
+}
+
+.shindan_area .shindan_window.start .start_txt{
+	text-align:center;
+	font-size:120%;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+.shindan_area .shindan_window .btn_area span:hover{
+	opacity:0.6;
+	cursor:pointer;
+}
+
+
+
+/* Shindan index_area */
+
+.shindan_area .shindan_window.index_area .index_area_txt{
+	text-align:left;
+	font-size:120%;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+.shindan_area .shindan_window.index_area .btn_area{
+	text-align:left;
+}
+
+.shindan_area .shindan_window.index_area .btn_area span{
+	display:inline-block;
+	padding:15px 0;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	color:#fff;
+	background-color:#347be4;
+	border-bottom:3px solid #2058ab;
+	text-shadow:1px 1px 0 #2058ab;
+	border-radius:4px;
+	width:32%;
+	margin:10px 1% 10px 0;
+	box-sizing:border-box;
+}
+
+
+/* Shindan qestion */
+
+.shindan_area .shindan_window.question_s .question_txt{
+	text-align:left;
+	font-size:120%;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+.shindan_area .shindan_window.question_s .btn_area{
+	text-align:center;
+}
+
+.shindan_area .shindan_window.question_s .btn_area span{
+	display:block;
+	padding:20px 15px;
+	text-align:center;
+	font-weight:bold;
+	font-size:130%;
+	color:#fff;
+	background-color:#FC4B4E;
+	border-bottom:3px solid #D40915;
+	text-shadow:1px 1px 0 #D40915;
+	border-radius:40px;
+	width:280px;
+	margin:20px auto;
+}
+
+.shindan_area .shindan_window.question_s .btn_area span a{
+	color:#fff;
+	text-decoration:none;
+}
+
+/* Shindan kekka */
+
+.shindan_area .shindan_window.kekka .kekka_title{
+	text-align:left;
+	font-size:120%;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+.shindan_area .shindan_window.kekka .kekka_txt p{
+	display:block;
+}
+
+.shindan_area .shindan_window.kekka .btn_area{
+	margin-top:40px;
+	text-align:center;
+}
+
+.shindan_area .shindan_window.kekka .btn_area span{
+	display:block;
+	padding:10px;
+	text-align:center;
+	font-weight:bold;
+	font-size:100%;
+	color:#fff;
+	background-color:#347be4;
+	border-bottom:3px solid #2058ab;
+	text-shadow:1px 1px 0 #2058ab;
+	border-radius:4px;
+	width:280px;
+	margin:20px auto;
+}
+
+.shindan_area .shindan_window.kekka .kekka_link_area{
+	border:2px solid #77afda;
+	position:relative;
+	padding:10px;
+	margin-top:40px;
+}
+
+.shindan_area .shindan_window.kekka .kekka_link_area ul li{
+	list-style-type: none !important;
+}
+
+.shindan_area .shindan_window.kekka .kekka_link_area ul li a{
+	font-size:180%;
+}
+
+.shindan_area .shindan_window.kekka .kekka_link_area:before{
+	content:"こちらをチェック！";
+	display: inline-block;
+	background: #77afda;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	padding: 4px 15px 2px;
+	line-height: 1;
+	letter-spacing: 0.05em;
+	position: absolute;
+	top:-22px;
+	left:-2px;
+}
+
+.shindan_area .shindan_window.kekka .kekka_link_area ul{
+	padding:0;
+	margin:0 auto;
+}
+
+.shindan_area .shindan_window.kekka .kekka_link_area ul li{
+	list-style:none;
+}
+
+.shindan_area .shindan_window.kekka .kekka_link_area ul li:before{
+	content:"▶";
+	display:inline-block;
+	margin-right:7px;
+	color:#77afda;
+	font-size:10px;
+	position:relative;
+	top:-2px;
+}
+
+
+@media screen and (max-width: 760px) {
+/* Shindan */
+
+
+.shindan_area .shindan_window.kekka .btn_area span,
+.shindan_area .shindan_window.start .btn_area span {
+    width: 265px;
+}
+
+}

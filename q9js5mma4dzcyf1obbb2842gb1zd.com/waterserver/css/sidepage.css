@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+/* ===================================
+	File Name   : sidepage.css
+	Description : sidemenu Page Layout CSS
+====================================== */
+
+/*========== Style Contents ==========
+
+	1. Main Contents Setting
+	*. Clear Fix
+
+====================================== */
+
+
+
+
+
+/*===== ■1. Main Contents Setting =====*/
+#side_menu_page #main_contents h1 {
+	margin-bottom: 7px;
+  	font-size: 120%;
+   /* font-weight: bold; */
+}
+
+#side_menu_page dl.ranking {
+	width: 700px;
+	margin-bottom: 10px;
+	background: url(../img/common/bg-contents-body.jpg) repeat-y;
+}
+
+#side_menu_page dl.ranking dt {
+	padding-bottom: 35px;
+	background: url(../img/common/bg-contents-head.jpg) no-repeat;
+}
+
+#side_menu_page dl.ranking dt img.contents_title {
+	float: left;
+	margin: 18px 0px 0px 1px;
+	padding-left: 33px;
+	background: url(../img/common/mark-square-pink.gif) no-repeat 0px center;
+}
+
+#side_menu_page dl.ranking dt img.contents_title_en {
+	float: right;
+	margin: 20px 22px 0px 0px;
+}
+
+#side_menu_page dl.ranking dd {
+	padding-bottom: 13px;
+	background: url(../img/common/bg-contents-bottom.jpg) no-repeat bottom;
+}
+
+#side_menu_page dl.ranking dd .ranking_result {
+	width: 656px;
+	margin: 0px 0px 45px 2px;
+	padding: 0px 20px 30px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#side_menu_page dl.ranking dd #ranking_last {
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	border: none;
+}
+
+#side_menu_page dl.ranking dd .ranking_result h2 {
+	display: block;
+	width: 656px;
+	height: 60px;
+	margin-bottom: 25px;
+	background: url(../img/feature/bg-ranking-title.jpg) no-repeat;
+}
+
+#side_menu_page dl.ranking dd .ranking_result h2 img {
+	float: left;
+	margin-left: 20px;
+}
+#side_menu_page dl.ranking dd #ranking_no2 h3 img { margin-left: 17px;}
+#side_menu_page dl.ranking dd #ranking_no3 h3 img { margin-left: 27px;}
+
+#side_menu_page dl.ranking dd .ranking_result h2 a {
+	float: left;
+	margin: 15px 0px 0px 40px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 154%;
+}
+#side_menu_page dl.ranking dd #ranking_no2 h3 a { margin-left: 37px;}
+#side_menu_page dl.ranking dd #ranking_no3 h3 a { margin-left: 43px;}
+
+.feature_img{
+	width: 125px;
+	height: auto;
+	float: left;
+}
+.gd{
+	width: 125px;
+	margin-top: 12px;
+	display: block;
+}
+.no1{
+	height: auto;
+	width: 100px;
+	display: inline;
+	float: left;
+	margin-bottom: 10px !important;
+}
+.no1.wide{
+	width: 160px !important;
+}
+.no1.sp{
+	display: block;
+	float: none;
+	margin: 0 auto !important;
+}
+.no1.no1_2{
+	height: auto;
+}
+.no1imgwrap{
+	display: block;
+	height: 100%;
+}
+/* .no1imgwrap img{
+	height: 120px;
+} */
+.isim>strong{
+	position: relative;
+	display: flex !important;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.isim>strong>div.no1imgwrap{
+	white-space: nowrap;
+	position: relative;
+	/* top: -30px; */
+	top: 0;
+	left: -10px;
+}
+.no1imgwrap:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.catch{
+	font-weight: bold;
+	font-size: 18px;
+}
+.isim>strong>div.no1imgwrap img{
+	width: 50%;
+	height: auto;
+	float: none !important;
+	display: inline-block !important;
+	width: 125px;
+	}
+.isim>strong>div:last-child{
+	left: 0px;
+	flex: 1;
+}
+.gd img{
+	width: 100%;
+	height: auto;
+}
+.feature_img img{
+	width: 100%;
+	height: auto;
+}
+
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption img {
+	display: block;
+	margin: 0px 10px 20px 0px;
+	vertical-align: top;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption .floatright {
+	float: right;
+	width: 506px;
+}
+#side_menu_page dl.ranking dd .ranking_result .server_caption .floatleft {
+	float: left;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption strong {
+	display: block;
+	margin-bottom: 15px;
+	color: #d83300;
+	font-weight: bold;
+	font-size: 154%;
+	line-height: 150%;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption p {
+	margin-bottom: 20px;
+	font-size: 108%;
+	line-height: 180%;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption em {
+	background: #ffdf83;
+	color: #d83300;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+#side_menu_page dl.ranking dd .ranking_result table {
+	width: 656px;
+	margin-bottom: 20px;
+	border: 1px solid #c9e7ff;
+}
+
+#side_menu_page dl.ranking dd .ranking_result th {
+	width: 120px;
+	padding: 10px 5px 10px 25px;
+	background: #c9e7ff url(../img/common/mark-drop-white.png) no-repeat 10px center;
+}
+
+#side_menu_page dl.ranking dd .ranking_result td {
+	width: 155px;
+	padding: 10px 5px 10px 15px;
+}
+
+#side_menu_page dl.ranking dd .ranking_result th,
+#side_menu_page dl.ranking dd .ranking_result td {	border-bottom: 1px solid #e4f3ff;}
+
+#side_menu_page dl.ranking dd .ranking_result tr.last_tr th,
+#side_menu_page dl.ranking dd .ranking_result tr.last_tr td { border-bottom: none;}
+
+#side_menu_page dl.ranking dd .ranking_result a.official_site {
+	display: block;
+	width: 310px;
+	height: 60px;
+	margin: 0px auto;
+}
+
+#side_menu_page p#ranking_notice { margin: 0px 0px 30px 10px;}
+
+
+
+
+
+/*===== ■*.Clear Fix  =====*/
+#side_menu_page dl.ranking dd .ranking_result h3:after,
+#side_menu_page dl.ranking dd .ranking_result .server_caption:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	content: " ";
+}
+
+
+/* 200708追加--CamBox */
+
+.cam-box {
+	width: 656px;
+	height: 114px;
+	margin: 0 0 20px;
+	display: flex;
+	align-items: center;
+	border: 2px solid #F5838A;
+	box-sizing: border-box;
+	border-radius: 10px;
+	position: relative;
+}
+
+.cam-box .left-con {
+	width: 26%;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #F5838A;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.cam-box .left-con h4 {
+	color: #fff;
+	width: 100%;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.cam-box .left-con img {
+	width: 45px;
+}
+.cam-box .right-con {
+	width: 80%;
+	padding: 20px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+.cam-box .right-con .cam-descript {
+	line-height: 1.5;
+	font-size: 108%;
+}
+.red {
+	color: #D23B27;
+	font-weight: bold;
+	font-size: 118%;
+}

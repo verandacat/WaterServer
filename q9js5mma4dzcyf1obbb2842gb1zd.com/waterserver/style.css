@@ -1,0 +1,52 @@
+/*   
+Theme Name: waterserver
+Theme URI: 
+Description: waterserver Theme template
+Author: Groundstep LLC
+Author URI: 
+Version: 1
+*/
+
+@import "css/reset.css";
+@import "css/common.css";
+.aka{
+	color: red;
+	font-size: 100%;
+	font-weight: bold;}
+.byfb{
+	background: #ffdf83;
+  color: #d83300;
+	font-size: 100%;
+	font-weight: bold;}
+.hidari{
+	text-align: center;}
+	
+.hidari .no1,
+.feature_img .no1{
+	min-width: 100px;}
+.isim>strong>div.no1imgwrap img.vert{
+    width:auto;
+    height:auto;
+    /* max-width:125px; */
+    max-height:125px;}
+.sp.no1.spimg{
+  text-align: center;
+  margin-top: 3px !important;}
+.no1.sp{
+  width: 80px!important;}
+.no1.sp.vert{
+    width:auto;
+    height:auto;
+    max-width:80px;
+    max-height:80px;}
+.spimbox{
+	float: left;
+  margin-right: 13px;
+  width: 100%;
+}
+.w100 {
+  width:100%;
+}
+/*上下中寄せ.server_caption>.isim>strong{
+  align-items: flex-start;}*/
+

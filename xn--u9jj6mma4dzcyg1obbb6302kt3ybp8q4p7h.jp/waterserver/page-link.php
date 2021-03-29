@@ -368,7 +368,7 @@ if(isset($_GET['link_id'])) {
 
         <div class="campaign-text">
             <h3>全員もらえる！初回の水1箱を無料0円でプレゼント！</h3>
-            <h3>今ならWチャンス！もれなく全員にAmazonギフト券500円分もプレゼント！</h3>
+            <h3>さらに今ならオリジナルグッズも数量限定でプレゼント！</h3>
             <h3>他社解約金最大16,500円キャッシュバック + 天然水1箱無料！</h3>
         </div>
     </div>
@@ -605,7 +605,7 @@ if(isset($_GET['link_id'])) {
     <?php elseif($link_id == 326) : ?> // oneWay
     countDownTimer('timer', '03/01/2021');
     <?php elseif($link_id == 59) : ?> // Frecious
-    countDownTimer('timer', '03/29/2021');
+    countDownTimer('timer', '04/12/2021');
     <?php else : ?>
     <?php endif; ?>
     </script>

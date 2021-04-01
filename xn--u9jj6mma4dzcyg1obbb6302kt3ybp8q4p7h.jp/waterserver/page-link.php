@@ -393,7 +393,7 @@ if(isset($_GET['link_id'])) {
         </div>
 
         <div class="campaign-text">
-            <h3>amazonギフト券5,000円分orボトル2本分など必ずもらえる、選べる特典付き！</h3>
+            <h3>Quoカード5,000円+ボトル1本分など必ずもらえる、選べる特典付き！</h3>
         </div>
     </div>
 

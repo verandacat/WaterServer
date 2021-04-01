@@ -256,7 +256,7 @@
                                                 src="<?php bloginfo('template_directory'); ?>/img/no1_small.jpg" alt="">
 
                                             <img class="no1 sp"
-                                                src="<?php bloginfo('template_directory'); ?>/img/2020_small.jpg"
+                                                src="<?php bloginfo('template_directory'); ?>/img/2021_tamahiyo.jpg"
                                                 alt="">
                                             <!--<img class="no1 sp" src="<?php bloginfo('template_directory'); ?>/img/tama0.jpg" alt="">
 						-->

@@ -299,7 +299,7 @@ $(window).load(function() {
                                     <img class="no1 m20 heightauto"
                                         src="<?php bloginfo('template_directory'); ?>/img/no1_small.jpg" alt="">
                                     <img class="no1 m20 heightauto"
-                                        src="<?php bloginfo('template_directory'); ?>/img/2020_small.jpg" alt="">
+                                        src="<?php bloginfo('template_directory'); ?>/img/2021_tamahiyo.jpg" alt="">
                                     <!-- <img class="no1" src="<?php bloginfo('template_directory'); ?>/img/tama2.jpg" alt="">
  -->
                                 </div>

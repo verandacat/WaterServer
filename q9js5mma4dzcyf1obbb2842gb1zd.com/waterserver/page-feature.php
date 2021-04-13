@@ -510,15 +510,25 @@ if (is_page("natural_water")) {//天然水
                             <th><span>お水の価格（1本）</span></th>
                             <td><span>
                                     <?php 
-              if (is_page("cost") && get_post_meta($post->ID,"product_name", true) == "コスモウォーター") : echo "1197円～(12L) <br />※RO水の場合"; 
-              else:
-                echo get_post_meta($post->ID,"water_cost", true); endif; ?></span></td>
+                if (is_page("cost") && get_post_meta($post->ID,"product_name", true) == "コスモウォーター") : echo "1197円～(12L) <br />※RO水の場合"; 
+                else:
+                echo number_format(get_post_meta($post->ID,"water_cost", true)).'円'; 
+                echo get_post_meta($post->ID,"water_cost2", true); 
+                 endif; ?></span></td>
                             <th><span>お水の種類</span></th>
                             <td><span><?php echo $water_type; ?></span></td>
                         </tr>
                         <tr>
                             <th><span>サーバー代（月）</span></th>
-                            <td><span><?php echo get_post_meta($post->ID,"server_cost", true); ?></span></td>
+                            <td><span>
+                            <?php if(!preg_match("/[0-9]{4}/",get_post_meta($post->ID, "server_cost", true))) : ?>
+                                <?php echo get_post_meta($post->ID, "server_cost", true); ?>
+                                <?php echo get_post_meta($post->ID, "server_cost2", true); ?>
+                                <?php else : ?>
+                                <?php echo number_format(get_post_meta($post->ID, "server_cost", true)); ?>円
+                                <?php echo get_post_meta($post->ID, "server_cost2", true); ?>
+                            <?php endif; ?>
+                            </span></td>
                             <th><span>配送料</span></th>
                             <td><span><?php echo get_post_meta($post->ID,"shipping_cost", true);?></span></td>
                         </tr>
@@ -526,7 +536,15 @@ if (is_page("natural_water")) {//天然水
                             <th><span>ボトルの種類</span></th>
                             <td><span><?php echo $bottles[get_field("bottle",$post->ID)];?>タイプ</span></td>
                             <th><span>電気代（月）</span></th>
-                            <td><span><?php echo get_post_meta($post->ID,"electricity_cost", true);?></span></td>
+                            <td><span>
+                            <?php if(!preg_match("/[0-9]{4}/",get_post_meta($post->ID, "electricity_cost", true))) : ?>
+                                <?php echo get_post_meta($post->ID, "electricity_cost", true); ?>
+                                <?php echo get_post_meta($post->ID, "electricity_cost2", true); ?>
+                                <?php else : ?>
+                                <?php echo number_format(get_post_meta($post->ID, "electricity_cost", true)); ?>円
+                                <?php echo get_post_meta($post->ID, "electricity_cost2", true); ?>
+                            <?php endif; ?>
+                            </span></td>
                         </tr>
                         <tr class="last_tr">
                             <th><span>配送地域</span></th>
@@ -745,7 +763,7 @@ if (is_page("natural_water")) {//天然水
                     <table>
                         <tr>
                             <th><span>お水の価格（1本）</span></th>
-                            <td><span><?php echo get_post_meta($post->ID,"water_cost", true);?></span></td>
+                            <td><span><?php echo number_format(get_post_meta($post->ID, "water_cost", true)); ?>円<?php echo get_post_meta($post->ID, "water_cost2", true); ?></span></td>
                         </tr>
                         <tr>
                             <th><span>お水の種類</span></th>
@@ -753,7 +771,15 @@ if (is_page("natural_water")) {//天然水
                         </tr>
                         <tr>
                             <th><span>サーバー代（月）</span></th>
-                            <td><span><?php echo get_post_meta($post->ID,"server_cost", true);?></span></td>
+                            <td><span>
+                            <?php if(!preg_match("/[0-9]{4}/",get_post_meta($post->ID, "server_cost", true))) : ?>
+                                <?php echo get_post_meta($post->ID, "server_cost", true); ?>
+                                <?php echo get_post_meta($post->ID, "server_cost2", true); ?>
+                                <?php else : ?>
+                                <?php echo number_format(get_post_meta($post->ID, "server_cost", true)); ?>円
+                                <?php echo get_post_meta($post->ID, "server_cost2", true); ?>
+                                <?php endif; ?>
+                            </span></td>
                         </tr>
                         <tr>
                             <th><span>配送料</span></th>
@@ -765,7 +791,15 @@ if (is_page("natural_water")) {//天然水
                         </tr>
                         <tr>
                             <th><span>電気代（月）</span></th>
-                            <td><span><?php echo get_post_meta($post->ID,"electricity_cost", true);?></span></td>
+                            <td><span>
+                            <?php if(!preg_match("/[0-9]{4}/",get_post_meta($post->ID, "electricity_cost", true))) : ?>
+                                <?php echo get_post_meta($post->ID, "electricity_cost", true); ?>
+                                <?php echo get_post_meta($post->ID, "electricity_cost2", true); ?>
+                                <?php else : ?>
+                                <?php echo number_format(get_post_meta($post->ID, "electricity_cost", true)); ?>円
+                                <?php echo get_post_meta($post->ID, "electricity_cost2", true); ?>
+                            <?php endif; ?>
+                            </span></td>
                         </tr>
                         <tr class="last_tr">
                             <th><span>配送地域</span></th>

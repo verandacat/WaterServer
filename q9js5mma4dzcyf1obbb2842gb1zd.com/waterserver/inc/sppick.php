@@ -42,7 +42,7 @@
 			<table>
 				<tr>
 					<th>お水の価格</th>
-					<td><?php echo get_post_meta($pickup_id,"water_cost", true);?></td>
+					<td><?php echo number_format($post["water_cost"]); ?>円<?php echo $post["water_cost2"];?></td>
 				</tr>
 				<tr>
 					<th>電気代(月)</th>

@@ -431,7 +431,7 @@ if(isset($_GET['link_id'])) {
         </div>
 
         <div class="campaign-text">
-            <h3>もれなく全員に祇園さゝ木パウンドケーキ＆アマノフーズ おみそ汁セットをWプレゼント！</h3>
+            <h3>もれなく全員に紀州高田果園 ひと雫の絹梅＆アマノフーズ おみそ汁セットをWプレゼント！</h3>
         </div>
     </div>
 
@@ -594,7 +594,7 @@ if(isset($_GET['link_id'])) {
     var dateObj = new Date();
     dateObj.setDate(dateObj.getDate() + 1);
 
-    <?php if($link_id == 496 ) : ?> // Premiun
+    <?php if($link_id == 496 ) : ?> // Premium
     countDownTimer('timer', '04/15/2021');
     <?php elseif($link_id == 60) : ?> // Aqua
     countDownTimer('timer', '05/13/2021');
@@ -603,7 +603,7 @@ if(isset($_GET['link_id'])) {
     <?php elseif($link_id == 57) : ?>　// Cosmo 
     countDownTimer('timer', '05/01/2021');
     <?php elseif($link_id == 326) : ?> // oneWay
-    countDownTimer('timer', '03/01/2021');
+    countDownTimer('timer', '05/01/2021');
     <?php elseif($link_id == 59) : ?> // Frecious
     countDownTimer('timer', '04/12/2021');
     

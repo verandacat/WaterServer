@@ -288,7 +288,15 @@
                 </tr>
                 <tr>
                     <th>サーバー代</th>
-                    <td><?php echo get_post_meta($post->ID, "server_cost", true); ?></td>
+                    <td>
+                    <?php if(!preg_match("/[0-9]{4}/",get_post_meta($post->ID, "server_cost", true))) : ?>
+                    <?php echo get_post_meta($post->ID, "server_cost", true); ?>
+                    <?php echo get_post_meta($post->ID, "server_cost2", true); ?>
+                    <?php else : ?>
+                    <?php echo number_format(get_post_meta($post->ID, "server_cost", true)); ?>円
+                    <?php echo get_post_meta($post->ID, "server_cost2", true); ?>
+                    <?php endif; ?>
+                    </td>
                 </tr>
                 <tr>
                     <th>ボトル</th>
@@ -296,11 +304,19 @@
                 </tr>
                 <tr>
                     <th>お水の価格</th>
-                    <td><?php echo get_post_meta($post->ID, "water_cost", true); ?></td>
+                    <td><?php echo number_format(get_post_meta($post->ID, "water_cost", true)); ?>円<?php echo get_post_meta($post->ID, "water_cost2", true); ?></td>
                 </tr>
                 <tr>
                     <th>電気代/月</th>
-                    <td><?php echo get_post_meta($post->ID, "electricity_cost", true); ?></td>
+                    <td>
+                    <?php if(!preg_match("/[0-9]{4}/",get_post_meta($post->ID, "electricity_cost", true))) : ?>
+                    <?php echo get_post_meta($post->ID, "electricity_cost", true); ?>
+                    <?php echo get_post_meta($post->ID, "electricity_cost2", true); ?>
+                    <?php else : ?>
+                    <?php echo number_format(get_post_meta($post->ID, "electricity_cost", true)); ?>円
+                    <?php echo get_post_meta($post->ID, "electricity_cost2", true); ?>
+                    <?php endif; ?>
+                    </td>
                 </tr>
                 <tr class="last_tr">
                     <th>配送地域</th>
@@ -521,7 +537,16 @@
                 </tr>
                 <tr>
                     <th>サーバー代/月</th>
-                    <td><?php echo get_post_meta($post->ID, "server_cost", true); ?></td>
+                    <td>
+                    <?php if(!preg_match("/[0-9]{4}/",get_post_meta($post->ID, "server_cost", true))) : ?>
+					<?php echo get_post_meta($post->ID, "server_cost", true); ?>
+					<?php echo get_post_meta($post->ID, "server_cost2", true); ?>
+					<?php else : ?>
+					<?php echo number_format(get_post_meta($post->ID, "server_cost", true)); ?>円
+					<?php echo get_post_meta($post->ID, "server_cost2", true); ?>
+					<?php endif; ?>
+                    
+                    </td>
                 </tr>
                 <tr>
                     <th>ボトルの種類</th>
@@ -529,11 +554,20 @@
                 </tr>
                 <tr>
                     <th>お水の価格</th>
-                    <td><?php echo get_post_meta($post->ID, "water_cost", true); ?></td>
+                    <td><?php echo number_format(get_post_meta($post->ID, "water_cost", true)); ?><?php echo get_post_meta($post->ID, "water_cost2", true); ?>
+                    </td>
                 </tr>
                 <tr>
                     <th>電気代/月</th>
-                    <td><?php echo get_post_meta($post->ID, "electricity_cost", true); ?></td>
+                    <td>
+                    <?php if(!preg_match("/[0-9]{4}/",get_post_meta($post->ID, "electricity_cost", true))) : ?>
+                    <?php echo get_post_meta($post->ID, "electricity_cost", true); ?>
+                    <?php echo get_post_meta($post->ID, "electricity_cost2", true); ?>
+                    <?php else : ?>
+                    <?php echo number_format(get_post_meta($post->ID, "electricity_cost", true)); ?>円
+                    <?php echo get_post_meta($post->ID, "electricity_cost2", true); ?>
+                    <?php endif; ?>
+                    </td>
                 </tr>
                 <tr class="last_tr">
                     <th>配送地域</th>

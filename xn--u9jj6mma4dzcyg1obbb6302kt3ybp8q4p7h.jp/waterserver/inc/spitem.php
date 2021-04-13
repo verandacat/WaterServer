@@ -47,7 +47,15 @@
                 </tr>
                 <tr>
                     <th>サーバー代</th>
-                    <td><?php echo $post["server_cost"];?></td>
+                    <td>
+					<?php if(!preg_match("/[0-9]{4}/",$post["server_cost"])) : ?>
+					<?php echo $post["server_cost"]; ?>
+					<?php echo $post["server_cost2"]; ?>
+					<?php else : ?>
+					<?php echo number_format($post["server_cost"]); ?>円
+					<?php echo $post["server_cost2"]; ?>
+					<?php endif; ?>
+					</td>
                 </tr>
                 <tr>
                     <th>ボトル</th>
@@ -55,7 +63,7 @@
                 </tr>
                 <tr>
                     <th>お水の価格</th>
-                    <td><?php echo $post["water_cost"];?></td>
+                    <td><?php echo number_format($post["water_cost"]); ?>円<?php echo $post["water_cost2"];?></td>
 				</tr>
 				<tr>
                     <th>宅配エリア</th>
@@ -63,7 +71,15 @@
                 </tr>
                 <tr>
                     <th>電気代/月</th>
-                    <td><?php echo $post["electricity_cost"];?></td>
+                    <td>
+					<?php if(!preg_match("/[0-9]{4}/",$post["electricity_cost"])) : ?>
+					<?php echo $post["electricity_cost"]; ?>
+					<?php echo $post["electricity_cost2"]; ?>
+					<?php else : ?>
+					<?php echo number_format($post["electricity_cost"]); ?>円
+					<?php echo $post["electricity_cost2"]; ?>
+					<?php endif; ?>
+					</td>
                 </tr>
                 
             </table>

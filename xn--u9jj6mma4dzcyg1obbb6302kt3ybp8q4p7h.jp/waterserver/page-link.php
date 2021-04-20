@@ -393,7 +393,7 @@ if(isset($_GET['link_id'])) {
         </div>
 
         <div class="campaign-text">
-            <h3>Quoカード5,000円+ボトル1本分など必ずもらえる、選べる特典付き！</h3>
+            <h3>Quoカード5,000円+ボトル2本分プレゼント！</h3>
         </div>
     </div>
 
@@ -595,7 +595,7 @@ if(isset($_GET['link_id'])) {
     dateObj.setDate(dateObj.getDate() + 1);
 
     <?php if($link_id == 496 ) : ?> // Premium
-    countDownTimer('timer', '04/15/2021');
+    countDownTimer('timer', '07/01/2021');
     <?php elseif($link_id == 60) : ?> // Aqua
     countDownTimer('timer', '05/13/2021');
     <?php elseif($link_id == 782) : ?> // shinano
@@ -605,7 +605,7 @@ if(isset($_GET['link_id'])) {
     <?php elseif($link_id == 326) : ?> // oneWay
     countDownTimer('timer', '05/01/2021');
     <?php elseif($link_id == 59) : ?> // Frecious
-    countDownTimer('timer', '04/12/2021');
+    countDownTimer('timer', '04/26/2021');
     
     <?php else : ?>
     <?php endif; ?>

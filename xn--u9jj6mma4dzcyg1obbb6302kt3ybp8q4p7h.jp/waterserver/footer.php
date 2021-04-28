@@ -150,5 +150,9 @@ var yahoo_retargeting_label = '';
 <script type="text/javascript" src="//st.nex8.net/js/nexRt.js"
 async="async"></script>
 
+<?php if(is_front_page() || is_page('ranking') || is_page('natural_water') || is_page('ro_water') || is_page('electric_utility_expense')|| is_page('cost') || is_page('baby') || is_page('convenience') || is_page('deskserver') || is_page('purifier') || is_page('serversearch') ) : ?>
+	<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-tthfvnze.js"></script>
+<?php endif; ?>
+
 </body>
 </html>

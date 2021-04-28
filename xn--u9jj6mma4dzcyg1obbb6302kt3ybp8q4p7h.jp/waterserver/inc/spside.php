@@ -56,9 +56,15 @@
 		</ul>
 	</dd>
 </dl>
-<div class="campbanner">
 
-	<a href="http://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/%E3%82%B3%E3%82%B9%E3%83%A2%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC%E6%9C%80%E6%96%B0%E3%81%AE%E3%81%8A%E5%BE%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E6%83%85%E5%A0%B1/" class="b2 spbanner">
+
+<dl id="" class="box">
+<dt class="boxtitle">
+	おすすめウォーターサーバー一覧
+	</dt>
+<div class="campbanner">
+	
+<a href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/link?link_id=57" target="_blank" class="b2 prrrr spbanner">
 		<img src="<?php bloginfo('template_directory'); ?>/spimg/b2.png" />
 	</a>
 
@@ -77,6 +83,7 @@
 		<script async src="https://h.accesstrade.net/js/atvad/atvad_min.js" data-atv-rk="0100o65d006pd3"></script>
 	</div> -->
 </div>
+</dl>
 
 <dl id="" class="box">
 	<dt class="boxtitle">

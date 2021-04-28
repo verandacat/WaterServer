@@ -408,9 +408,13 @@ $(window).load(function() {
     <?php }else{?>
 
 
-    <h1><img src="<?php bloginfo('template_directory'); ?>/spimg/sprankbanner.png"
-            alt="2014年版　本気でオススメできる優良ウォーターサーバー人気ランキング" class="sprankbanner" /></h1>
-    <div id="footmark"><a href="<?php bloginfo('url'); ?>/">トップページ</a><span>&nbsp;&gt;&nbsp;人気ランキング</span></div>
+        <h1>
+        <picture>
+            <source type="image/webp" srcset="<?php bloginfo('template_directory'); ?>/spimg/water__fv--sp.webp" width="100%">
+            
+            <img src="<?php bloginfo('template_directory'); ?>/spimg/water__fv--sp.jpg" alt="2021年版本気でオススメできる優良ウォーターサーバー人気ランキング" class="sprankbanner" />
+        </picture>
+    </h1>
 
     <?php
 include(TEMPLATEPATH .'/inc/rank.php');

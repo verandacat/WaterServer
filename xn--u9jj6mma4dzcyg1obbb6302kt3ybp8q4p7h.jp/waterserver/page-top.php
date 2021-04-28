@@ -28,11 +28,7 @@ $(window).load(function() {
     <?php }else{ ?>
     <?php include(TEMPLATEPATH .'/inc/searchform.php'); ?>
 
-    <a href="/ranking/" class="top_rank_banner">
-        <h2>
-        【<?php echo date('Y'); ?>年<?php echo date('n'); ?>月更新】ウォーターサーバー人気ランキングBEST10
-        </h2>
-    </a>
+    
     <?php $is_top = true; include(TEMPLATEPATH .'/inc/rank.php'); ?>
 
     <?php } ?>

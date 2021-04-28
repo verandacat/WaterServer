@@ -1,0 +1,20 @@
+@charset "UTF-8";
+:root {
+    --main: #04B7DE;
+    --blue1: #AAE4F1;
+    --blue2: #CBF2FB;
+    --blue3: #F4FDFF;
+    --navy: #1B638B;
+    --knavy: #788D99;
+    --white: #FFF;
+    --black: #474E52;
+    --grey: #EAEBEF;
+    --lgrey: #F8F7F2;
+    --ylw: #FFDF6C;
+    --lylw: #FFF7E2;
+    --lorange: #F5B88C;
+    --pink: #EF5C64;
+    --ored: #E8430E;
+    --title: linear-gradient(180deg, #D8F5FB 47.92%, #C5E9F1 47.93%, #ACEAF8 100%);
+    --btn: linear-gradient(180deg, #F7511D 50%, #E8430E 50%);
+}

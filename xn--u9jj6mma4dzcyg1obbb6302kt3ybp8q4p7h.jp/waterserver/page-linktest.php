@@ -338,7 +338,7 @@
     <?php elseif($link_id == 60) : ?> // Aqua
     countDownTimer('timer', '05/13/2021');
     <?php elseif($link_id == 782) : ?> // shinano
-    countDownTimer('timer', '07/01/2021');
+    countDownTimer('timer', '01/01/2021');
     <?php elseif($link_id == 57) : ?>　// Cosmo 
     countDownTimer('timer', '05/01/2021');
     <?php elseif($link_id == 326) : ?> // oneWay

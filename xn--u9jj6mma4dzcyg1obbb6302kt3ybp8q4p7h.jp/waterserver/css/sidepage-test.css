@@ -1,0 +1,491 @@
+@charset "UTF-8";
+@import 'colors.css';
+
+/* ===================================
+	File Name   : sidepage.css
+	Description : sidemenu Page Layout CSS
+====================================== */
+
+
+/*========== Style Contents ==========
+
+	1. Main Contents Setting
+	*. Clear Fix
+
+====================================== */
+
+
+/*===== ■1. Main Contents Setting =====*/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif!important;
+    color: var(--black);
+}
+
+.red {
+    color: var(--pink);
+    font-weight: bold;
+    font-size: 1rem;
+    /* font-size: 118%; */
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.aka {
+    color: var(--ored);
+    font-size: 1rem;
+}
+
+.ylw {
+    /* font-size: 16px; */
+    font-size: 1rem;
+    background: linear-gradient(to bottom, transparent 70%, #ffe34b 20%, #ffe34b 90%, transparent 80%);
+}
+
+#contents {
+    width: 1050px;
+}
+
+#main_contents {
+    width: 800px;
+}
+
+#side_menu_page #main_contents h1 {
+    /* margin-bottom: 7px; */
+    font-size: 120%;
+    /* font-weight: bold; */
+}
+
+#side_menu_page dl.ranking {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: var(--white);
+}
+
+#side_menu_page dl.ranking dt {
+    padding-bottom: 10px;
+    background: url(../img/common/bg-contents-head.jpg) no-repeat;
+}
+
+#side_menu_page dl.ranking dt img.contents_title {
+    float: left;
+    margin: 18px 0px 0px 1px;
+    padding-left: 33px;
+    background: url(../img/common/mark-square-pink.gif) no-repeat 0px center;
+}
+
+#side_menu_page dl.ranking dt img.contents_title_en {
+    float: right;
+    margin: 20px 22px 0px 0px;
+}
+
+#side_menu_page dl.ranking dd {
+    padding-bottom: 13px;
+    background: url(../img/common/bg-contents-bottom.jpg) no-repeat bottom;
+}
+
+#side_menu_page dl.ranking dd .ranking_result {
+    margin: 0px 0px 45px 2px;
+    padding: 0px 20px 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#side_menu_page dl.ranking dd #ranking_last {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    border: none;
+}
+
+
+/* #side_menu_page dl.ranking dd .ranking_result h2 {
+    display: block;
+    height: 60px;
+    margin-bottom: 25px;
+    background: url(../img/feature/bg-ranking-title.jpg) no-repeat;
+} */
+
+#side_menu_page dl.ranking dd #ranking_no2 h3 img {
+    margin-left: 17px;
+}
+
+#side_menu_page dl.ranking dd #ranking_no3 h3 img {
+    margin-left: 27px;
+}
+
+#side_menu_page dl.ranking dd #ranking_no2 h3 a {
+    margin-left: 37px;
+}
+
+#side_menu_page dl.ranking dd #ranking_no3 h3 a {
+    margin-left: 43px;
+}
+
+.rank__sub__descript {
+    font-size: 0.9rem;
+    color: var(--knavy);
+    padding: 0 0.8rem 0.8rem;
+}
+
+.feature_img {
+    width: 125px;
+    height: auto;
+    float: left;
+}
+
+.gd {
+    width: 125px;
+    margin-top: 12px;
+    display: block;
+}
+
+.no1 {
+    height: auto;
+    width: 100px;
+    display: inline;
+    float: left;
+    margin-bottom: 10px !important;
+}
+
+.no1.wide {
+    width: 160px !important;
+}
+
+.no1.sp {
+    display: block;
+    float: none;
+    margin: 0 auto !important;
+}
+
+.no1.no1_2 {
+    height: auto;
+}
+
+.no1imgwrap {
+    display: block;
+    height: 100%;
+}
+
+
+/* .no1imgwrap img{
+	height: 120px;
+} */
+
+.isim>strong {
+    position: relative;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.isim>strong>div.no1imgwrap {
+    white-space: nowrap;
+    position: relative;
+    /* top: -30px; */
+    top: 0;
+    left: -10px;
+    margin-bottom: 20px;
+}
+
+.no1imgwrap:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.catch {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.isim>strong>div.no1imgwrap img {
+    width: 50%;
+    height: auto;
+    float: none !important;
+    display: inline-block !important;
+    width: 100px;
+}
+
+.isim>strong>div:last-child {
+    left: 0px;
+    flex: 1;
+}
+
+.gd img {
+    width: 100%;
+    height: auto;
+}
+
+.feature_img img {
+    width: 100%;
+    height: auto;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption img {
+    display: block;
+    margin: 0px 10px 20px 0px;
+    vertical-align: top;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption .floatright {
+    float: right;
+    width: 506px;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption .floatleft {
+    float: left;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption strong {
+    display: block;
+    margin-bottom: 15px;
+    color: #d83300;
+    font-weight: bold;
+    font-size: 154%;
+    line-height: 150%;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption p {
+    margin-bottom: 20px;
+    font-size: 108%;
+    line-height: 180%;
+}
+
+#side_menu_page dl.ranking dd .ranking_result .server_caption em {
+    background: #ffdf83;
+    color: #d83300;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+#side_menu_page dl.ranking dd .ranking_result table {
+    margin-bottom: 20px;
+    border: 1px solid #c9e7ff;
+}
+
+#side_menu_page dl.ranking dd .ranking_result th {
+    width: 120px;
+    padding: 10px 5px 10px 25px;
+    background: #c9e7ff url(../img/common/mark-drop-white.png) no-repeat 10px center;
+}
+
+#side_menu_page dl.ranking dd .ranking_result td {
+    width: 155px;
+    padding: 10px 5px 10px 15px;
+}
+
+#side_menu_page dl.ranking dd .ranking_result th,
+#side_menu_page dl.ranking dd .ranking_result td {
+    border-bottom: 1px solid #e4f3ff;
+}
+
+#side_menu_page dl.ranking dd .ranking_result tr.last_tr th,
+#side_menu_page dl.ranking dd .ranking_result tr.last_tr td {
+    border-bottom: none;
+}
+
+#side_menu_page dl.ranking dd .ranking_result a.official_site {
+    display: block;
+    width: 310px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+#side_menu_page p#ranking_notice {
+    margin: 0px 0px 30px 10px;
+}
+
+
+/*===== ■*.Clear Fix  =====*/
+
+#side_menu_page dl.ranking dd .ranking_result h3:after,
+#side_menu_page dl.ranking dd .ranking_result .server_caption:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    content: " ";
+}
+
+
+/* 200708追加--CamBox */
+
+.cam-box {
+    height: 114px;
+    margin: 0 0 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #F5838A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cam-box .left-con {
+    width: 26%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #F5838A;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cam-box .left-con h4 {
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.cam-box .left-con img {
+    width: 45px;
+}
+
+.cam-box .right-con {
+    width: 80%;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cam-box .right-con .cam-descript {
+    line-height: 1.5;
+    font-size: 108%;
+}
+
+
+/* 210427 追加 */
+
+dl.ranking .rank__title__descript {
+    padding: 0.8rem;
+    font-size: 1.14rem!important;
+    border-radius: 8px;
+    background: var(--white);
+    border: 2px solid var(--blue1);
+    margin: 0.5rem;
+    position: relative;
+}
+
+dl.ranking .rank__title__descript:after {
+    content: '';
+    width: 20px;
+    height: 24px;
+    background-image: url(../spimg/icons/icon-mize.svg);
+    background-color: var(--white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -8px;
+    left: -2px;
+}
+
+dl.ranking .title__wrap {
+    position: relative;
+}
+
+dl.ranking .title__wrap .rank__title {
+    width: 100%;
+    height: 64px;
+    margin: 18px 0 8px;
+    padding: 0 0 14px;
+    background-color: var(--main);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+dl.ranking .title__wrap .rank__title:before,
+dl.ranking .title__wrap .rank__title:after {
+    content: '';
+    width: 68px;
+    height: 106px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+dl.ranking .title__wrap .rank__title:before {
+    left: 0;
+    background: url(../spimg/icons/title-bg-left.png);
+}
+
+dl.ranking .title__wrap .rank__title:after {
+    right: 0;
+    background: url(../spimg/icons/title-bg-right.png);
+}
+
+dl.ranking .title__wrap .rank__title h2 {
+    color: var(--white);
+    height: auto;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: transparent;
+    line-height: 64px;
+    padding-left: 0;
+    text-align: center;
+    margin: 12px 0;
+}
+
+dl.ranking .title__wrap p {
+    color: var(--white);
+    font-size: 1.3rem;
+    padding: 0.2rem 0.8rem;
+    background: var(--black);
+    border-radius: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    border: 3px solid var(--main);
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+dl.ranking .title__wrap p .fas {
+    margin-right: 8px;
+}
+
+dl.ranking .ranking_result .rank_item_title {
+    position: relative;
+    /* border-top: 4px solid var(--sky); */
+    background: var(--title);
+    height: 60px;
+    color: #fff;
+    line-height: 50px;
+    padding-left: 50px;
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+dl.ranking .ranking_result .rank_item_title img {
+    left: 10px;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+dl.ranking .ranking_result .rank_item_title a {
+    color: var(--black);
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 20px;
+}

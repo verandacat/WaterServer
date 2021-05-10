@@ -26,15 +26,22 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/column.css" media="all" />
 
 <?php } ?>
+
 <?php if (is_mobile()): ?>
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/sp.css?<?php echo time(); ?>" />
+	<?php if(!is_page('ranking-new')) : ?>
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/sp.css?<?php echo time(); ?>" />
+	<?php else : ?>
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/sp-test.css?<?php echo time(); ?>" />
+	<?php endif ?>
 <?php endif ?>
+
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/common.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/smartrollover.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/favorite.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/storage.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/shindan.js"></script>
+<script src="https://kit.fontawesome.com/339539da33.js" crossorigin="anonymous"></script>
 <?php
 global $template;
 $template_name = basename($template, '.php');
@@ -51,7 +58,7 @@ $template_name = basename($template, '.php');
 <?php
 $body_id = "top";
 
-if (is_page("natural_water") || is_page("deskserver") || is_page("purifier") || is_page("ranking") || is_page("ranking_p") || is_page("ro_water") || is_page("electric_utility_expense") || is_page("cost") || is_page("baby") || is_page("convenience")) {
+if (is_page("natural_water") || is_page("deskserver") || is_page("purifier") || is_page("ranking") || is_page("ranking_p")  || is_page("ranking-new")|| is_page("ro_water") || is_page("electric_utility_expense") || is_page("cost") || is_page("baby") || is_page("convenience")) {
 
 	$body_id = "side_menu_page";
 

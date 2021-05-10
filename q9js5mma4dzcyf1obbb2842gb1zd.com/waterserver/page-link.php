@@ -51,10 +51,34 @@ if(isset($_GET['link_id'])) {
 ?>
 公式サイトに移動します。
 <script>
-	setTimeout(function(){
-		//alert("<?php echo $url; ?>");
-		location.replace("<?php echo $url; ?>");
-	}, 1000);
+    var gclid = localStorage.getItem('gclid');
+    var yclid = localStorage.getItem('yclid');
+    if(gclid){
+      var linkUrl = '<?php echo $url; ?>&add='+gclid;
+      setTimeout(function() {
+          location.replace(linkUrl);
+      }, 1000);
+    }else
+    if(yclid){
+      var linkUrl = '<?php echo $url; ?>&add='+yclid;
+      setTimeout(function() {
+          location.replace(linkUrl);
+      }, 1000);
+    }else{
+      var linkUrl = '<?php echo $url; ?>';
+      setTimeout(function() {
+          location.replace(linkUrl);
+      }, 1000);
+    }
+    console.log("gclid"+gclid);
+    console.log("yclid"+yclid);
+    console.log("link"+linkUrl);
+
+
+//	setTimeout(function(){
+//		//alert("<?php echo $url; ?>");
+//		location.replace("<?php echo $url; ?>");
+//	}, 1000);
 </script>
 <?php
 		//リダイレクト
@@ -76,13 +100,5 @@ var yahoo_retargeting_label = '';
 /* ]]> */
 </script>
 <script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
-<script type="text/javascript">
-    window.nex_rt_queue = window.nex_rt_queue || [];
-    window.nex_rt_queue.push({
-        advertiser_id: 276
-    });
-</script>
-<script type="text/javascript" src="//st.nex8.net/js/nexRt.js"
-async="async"></script>
 </body>
 </html>

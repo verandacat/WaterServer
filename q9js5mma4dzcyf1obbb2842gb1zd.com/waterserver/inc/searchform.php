@@ -16,9 +16,9 @@ $img_name = "/img/search/btn-search-more-long_off.jpg";
             <img src="<?php bloginfo('template_directory'); ?>/img/top/txt-search-en.png" alt="SEARCH" width="53"
                 height="12" class="contents_title_en" />
             <?php }else{ ?>
-            利用目的にあった<br>
+            <!-- 利用目的にあった<br>
             ウォーターサーバーを<br>
-            <span class="sc1">“</span><span class="sss">3</span><span class="sc1">”</span>秒簡単検索！
+            <span class="sc1">“</span><span class="sss">3</span><span class="sc1">”</span>秒簡単検索！ -->
             <?php } ?>
         </dt>
         <dd>

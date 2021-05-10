@@ -585,5 +585,10 @@ function slideUp() {
 };
 })
 </script>
+
+<?php if(is_front_page() || is_page('ranking') || is_page('natural_water') || is_page('ro_water') || is_page('electric_utility_expense')|| is_page('cost') || is_page('baby') || is_page('convenience') || is_page('deskserver') || is_page('purifier') || is_page('serversearch') ) : ?>
+	<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-rmliqwpb.js"></script>
+<?php endif; ?>
+
 </body>
 </html>

@@ -321,7 +321,8 @@
                         ※たまひよ赤ちゃんグッズ大賞とは、たまごクラブ・ひよこクラブ2021年3月号に掲載のランキング結果です。【調査方法】web調査【対象者】全国の生後０カ月～１才6カ月のお子さまを持つ、たまひよ読者2,000人</p>
                 <?php endif; ?>
                         
-                <?if ($campaignTitle || $campaigndesRed|| $campaigndes) : ?>
+                <?php if ($campaigndesRed==true) : ?>
+
                 <div class="cam-box">
                     <div class="left-con">
                         <h4 style="text-align: center"><?php echo $campaignTitle; ?>キャンペーン</h4>

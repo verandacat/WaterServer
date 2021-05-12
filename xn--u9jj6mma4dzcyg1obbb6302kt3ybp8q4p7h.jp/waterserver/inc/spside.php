@@ -73,7 +73,7 @@
 	</a>
 	
 	<a href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/link?link_id=60"  target="_blank" class="b2 prrrr spbanner">
-		<img src="<?php bloginfo('template_directory'); ?>/img/aqua_600.jpg" alt="アクアクララ AQUA FAB" width="100%"></a>
+		<img src="<?php bloginfo('template_directory'); ?>/img/aqua_210511-600_600.jpg" alt="アクアクララ AQUA FAB" width="100%"></a>
 
 	<a href="http://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/premium-water/" class="b2 spbanner">
 		<img src="<?php bloginfo('template_directory'); ?>/spimg/waterserver-b.png" />

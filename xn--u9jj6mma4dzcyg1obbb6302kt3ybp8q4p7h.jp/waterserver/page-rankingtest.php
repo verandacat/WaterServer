@@ -16,14 +16,16 @@ $(window).load(function() {
 
 <div id="main_contents">
     <?php if(!is_mobile()){ ?>
-        
+
     <h1>
         <picture>
-            <source type="image/webp" srcset="<?php bloginfo('template_directory'); ?>/img/water__fv--pc.webp" width="100%">
-            
-            <img src="<?php bloginfo('template_directory'); ?>/img/water__fv--pc.jpg" alt="2021年版本気でオススメできる優良ウォーターサーバー人気ランキング" width="100%" />
+            <source type="image/webp" srcset="<?php bloginfo('template_directory'); ?>/img/water__fv--pc.webp"
+                width="100%">
+
+            <img src="<?php bloginfo('template_directory'); ?>/img/water__fv--pc.jpg"
+                alt="2021年版本気でオススメできる優良ウォーターサーバー人気ランキング" width="100%" />
         </picture>
-        
+
     </h1>
 
     <!-- <div id="footmark"><a href="<?php bloginfo('url'); ?>/">トップページ</a><span>&nbsp;&gt;&nbsp;人気ランキング</span></div> -->
@@ -31,8 +33,9 @@ $(window).load(function() {
     <dl class="ranking">
         <div class="rank__title__descript">
             <p>
-            このページでは<span class="aka">月額費用、デザイン、機能性、口コミ</span>などを基準に選ばれた<span class="ylw aka">人気のウォーターサーバーをランキングでご紹介</span>しています。
-            どのサーバーもおすすめですが、<span class="bold">それぞれに特徴があります</span>ので、あなたにぴったりの1台を見つけてくださいね！
+                このページでは<span class="aka">月額費用、デザイン、機能性、口コミ</span>などを基準に選ばれた<span
+                    class="ylw aka">人気のウォーターサーバーをランキングでご紹介</span>しています。
+                どのサーバーもおすすめですが、<span class="bold">それぞれに特徴があります</span>ので、あなたにぴったりの1台を見つけてくださいね！
             </p>
         </div>
 
@@ -148,88 +151,266 @@ $(window).load(function() {
                     <?php endif; ?>
                     <h2 class="rank_item_title">
                         <img src="<?php bloginfo('template_directory'); ?>/spimg/icons/badge_<?php echo $count; ?>.svg"
-                            alt="第<?php echo $count; ?>位" width="116" height="80" />
+                            alt="第<?php echo $count; ?>位" width="80" height="80" />
 
                         <?php if($post->ID == 57) : ?>
-                            <a href="<?php bloginfo('url'); ?>/linktest?link_id=<?php echo $post->ID; ?>" rel="external nofollow"
+                        <a href="<?php bloginfo('url'); ?>/linktest?link_id=<?php echo $post->ID; ?>"
+                            rel="external nofollow"
                             class="prrrr"><?php echo get_post_meta($post->ID, "product_name", true); ?></a>
-                            <?php else : ?>
-                        <a href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>" rel="external nofollow"
+                        <?php else : ?>
+                        <a href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>"
+                            rel="external nofollow"
                             class="prrrr"><?php echo get_post_meta($post->ID, "product_name", true); ?></a>
-                            <?php endif; ?>
+                        <?php endif; ?>
+
+                       
+
                     </h2>
 
                     <div class="star_box">
-                        <img src="<?php echo $rStar; ?>" alt="">
-                        <div class="score">
-                        <span class="sougo">総合評価</span><span class="tensu"><?php echo $score_rank; ?></span><span class="manten">点/5.0点</span>
+                            <img src="<?php echo $rStar; ?>" alt="">
+                            <div class="score">
+                                <span class="sougo">総合評価</span><span
+                                    class="tensu"><?php echo $score_rank; ?></span><span class="manten">点/5.0点</span>
+                            </div>
+                        </div>
+
+                        <?php if(!empty($rCatch)) : ?>
+                            <div class="rank_catch">
+                                <p><?php echo $rCatch; ?></p>
+                            </div>
+                            <?php endif; ?>
+
+                    <div class="rank_caption">
+
+                        <div class="rank_contents">
+
+                            
+                            <a href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>"
+                                rel="external nofollow" class="prrrr first_img">
+                                <img src="<?php echo $main_thum; ?>"
+                                    alt="<?php echo get_post_meta($post->ID, "product_name", true); ?>" />
+                            </a>
+
+                            <div class="right">
+
+
+
+                            <div class="n_table_wrap table01">
+                                <table>
+                                <tr>
+                                    <th>月額費用※</th>
+                                    <td>
+                                    <?php if(!empty($rPrice)) : ?>
+                                    <?php echo number_format($rPrice); ?>円
+                                    <?php endif; ?>
+                                    <span>（税込）</span></td>
+                                </tr>
+                                <tr>
+                                    <th>レンタル料</th>
+                                    <td>
+                                    <?php if($rRent > 999 ) {
+                                        echo number_format($rRent).'円';
+                                    } else {
+                                    echo $rRent.'円';
+                                    }
+                                    ?>
+                                    <?php if(!empty($rRentTxt)) : ?>
+                                    <?php echo $rTentTxt; ?> 
+                                    <?php endif; ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>お水の種類</th>
+                                    <td><?php echo $rWater; ?></td>
+                                </tr>
+                                <tr>
+                                    <th>サーバータイプ</th>
+                                    <td><?php echo $rType; ?></td>
+                                </tr>
+                            </table>
+                            </div>
+
+                           
+                        
+                            </div>
+    
+                            
+
+                            
+
+                            <?php if ($post->ID == 496) { ?>
+                            <style>
+                            .sign {
+                                text-align: center;
+                                width: 80px;
+                            }
+                            </style>
+
+                            <?php } ?>
+
+                           
+
+                           
+                        </div>
+
+                        <?php $points = array($osu_point1, $osu_point2, $osu_point3, $osu_point4, $osu_point5, $osu_point6); ?>
+                            <?php if(!empty($osu_point1)) : ?>
+                            <ul class="rank_point">
+                            <?php
+                                
+                                foreach ($points as $value) {
+                                    if($value == true) {
+                                    echo "<li>".$value."</li>";
+                                    }
+                                }
+                            ?>
+                            </ul>
+                            <?php endif; ?>
+
+                        <div class="newBtn">
+                                <a href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>" class="prrrr" target="_blank">
+                                    <p>申し込みはこちら</p>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+
+                        <!-- <div class="n_table_wrap table02">
+                            <table>
+                                <tr>
+                                    <th>月額費用※</th>
+                                    <th>レンタル料</th>
+                                    <th>お水の種類</th>
+                                    <th>サーバータイプ</th>
+                                </tr>
+                                <tr>
+                                    <td> <?php if(!empty($rPrice)) : ?>
+                                    <?php echo number_format($rPrice); ?>円
+                                    <?php endif; ?>
+                                    <span>（税込）</span></td>
+                                    <td><?php if($rRent > 999 ) {
+                                        echo number_format($rRent).'円';
+                                    } else {
+                                    echo $rRent.'円';
+                                    }
+                                    ?>
+                                    <?php if(!empty($rRentTxt)) : ?>
+                                    <?php echo $rTentTxt; ?> 
+                                    <?php endif; ?></td>
+                                    <td><?php echo $rWater; ?></td>
+                                    <td><?php echo $rType; ?></td>
+                                </tr>
+                            </table>
+                        </div> -->
+
+                        <div class="n_table_wrap table02">
+                            <table>
+                                <tr>
+                                    <th>デザイン</th>
+                                    <th>機能性</th>
+                                    <th>サポート体制</th>
+                                    <th>口コミ評価</th>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>
+                                        <?php if($rDesign == 1)  {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_01.svg'>";
+                                        } elseif($rDesign == 2) {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_02.svg'>";
+                                        } elseif($rDesign == 3)  {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_03.svg'>";
+                                        }
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <?php if($rFunc == 1)  {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_01.svg'>";
+                                        } elseif($rFunc == 2) {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_02.svg'>";
+                                        } elseif($rFunc == 3) {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_03.svg'>";
+                                        }
+                                        ?>
+                                    </td>
+                                    <td>
+                                    <?php if($rSupport == 1)  {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_01.svg'>";
+                                        } elseif($rSupport == 2) {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_02.svg'>";
+                                        } elseif($rSupport == 3) {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_03.svg'>";
+                                        }
+                                        ?>
+                                    </td>
+                                    <td>
+                                    <?php if($rReview == 1)  {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_01.svg'>";
+                                        } elseif($rReview == 2) {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_02.svg'>";
+                                        } elseif($rReview == 3) {
+                                            echo "<img src='https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/wp-content/themes/waterserver/img/icons/maru_03.svg'>";
+                                        } 
+                                        ?>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="keyword_box">
+                            <ul class="keyword">
+                                    <?php 
+                                            $rTagsList = array("一人暮らし向き", "子育て向き", "省エネ設計");
+                                            
+                                            if(!empty($rTags)) {
+                                                $rTagInter = array_intersect($rTagsList, $rTags);
+                                                $rTagDiff = array_diff($rTagsList, $rTags);
+                                                foreach ($rTagInter as $val) {
+                                                    echo '<li>'.$val.'</li>';
+                                                }
+                                                foreach ($rTagDiff as $val) {
+                                                    echo '<li class="grey">'.$val.'</li>';
+                                                }
+                                                
+                                            } else {
+                                                foreach ($rTagsList as $val) {
+                                                    echo '<li class="grey">'.$val.'</li>';
+                                                }
+                                            }
+                                            
+                                        ?>
+                            </ul>
+                        </div>
+
+                        <?if (!empty($campaigndesRed)) : ?>
+                        <div class="cam-box">
+                            <div class="left-con">
+                                <img src="<?php bloginfo('template_directory'); ?>/spimg/icons/icon-camp2.svg" alt="">
+                                <h4>
+                                    <?php if(!empty($camD)) : ?>
+                                    <?php echo date('Y')."年"; ?><span><?php echo $camD; ?></span>まで
+                                    <?php endif; ?>
+                                    <?php echo $campaignTitle; ?>キャンペーン
+                                </h4>
+                                
+                            </div>
+                            <div class="right-con">
+                                <p class="cam-descript">
+                                    <span class="red"><?php echo $campaigndesRed; ?></span>
+                                </p>
+                            </div>
+                        </div>
+                        <? endif; ?>
+
+
+                        <div class="newBtn">
+                            <a href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>" class="prrrr" target="_blank">
+                                <p>公式サイトでお得に申し込む</p>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+
                     </div>
-                </div>
-
-                <div class="rank_caption">
-
-                <div class="rank_contents">
-                   
-                   <a href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>"
-                       rel="external nofollow" class="prrrr first_img">
-                       <img src="<?php echo $main_thum; ?>" alt="<?php echo get_post_meta($post->ID, "product_name", true); ?>" />
-                   </a>
-
-                   <div class="n_table_wrap table01">
-                       <table>
-                           <tr>
-                               <th>月額費用※</th>
-                               <td>
-                               <?php if(!empty($rPrice)) : ?>
-                               <?php echo number_format($rPrice); ?>円
-                               <?php endif; ?>
-                               <span>（税込）</span></td>
-                           </tr>
-                           <tr>
-                               <th>レンタル料</th>
-                               <td>
-                               <?php if($rRent > 999 ) {
-                                   echo number_format($rRent).'円';
-                               } else {
-                               echo $rRent.'円';
-                               }
-                               ?>
-                               <?php if(!empty($rRentTxt)) : ?>
-                               <?php echo $rTentTxt; ?> 
-                               <?php endif; ?>
-                               </td>
-                           </tr>
-                           <tr>
-                               <th>お水の種類</th>
-                               <td><?php echo $rWater; ?></td>
-                           </tr>
-                           <tr>
-                               <th>サーバータイプ</th>
-                               <td><?php echo $rType; ?></td>
-                           </tr>
-                       </table>
-                   </div>  
-                   
-                   <?php if ($post->ID == 496) { ?>
-                    <style>
-                    .sign {
-                        text-align: center;
-                        width: 80px;
-                    }
-                    </style>
-
-                    <?php } ?>
-                </div>
-
-                </div>
-
-                    
-
-                   
-
-
-
-
 
 
                 </div><!-- / ranking result [ranking no1] -->
@@ -245,12 +426,14 @@ $(window).load(function() {
     <?php include(TEMPLATEPATH .'/inc/searchform.php'); ?>
 
     <?php }else{?>
-       
+
     <h1>
         <picture>
-            <source type="image/webp" srcset="<?php bloginfo('template_directory'); ?>/spimg/water__fv--sp.webp" width="100%">
-            
-            <img src="<?php bloginfo('template_directory'); ?>/spimg/water__fv--sp.jpg" alt="2021年版本気でオススメできる優良ウォーターサーバー人気ランキング" class="sprankbanner" />
+            <source type="image/webp" srcset="<?php bloginfo('template_directory'); ?>/spimg/water__fv--sp.webp"
+                width="100%">
+
+            <img src="<?php bloginfo('template_directory'); ?>/spimg/water__fv--sp.jpg"
+                alt="2021年版本気でオススメできる優良ウォーターサーバー人気ランキング" class="sprankbanner" />
         </picture>
     </h1>
 

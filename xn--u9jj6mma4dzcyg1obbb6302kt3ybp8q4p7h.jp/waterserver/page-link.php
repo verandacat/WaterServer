@@ -179,7 +179,6 @@
     <div class="re-campaign-box">
         <div class="timer-box">
             <img src="<?php bloginfo('template_directory'); ?>/img/wk-logo.svg" alt="">
-
         </div>
     </div>
 
@@ -247,16 +246,67 @@
             <a href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=1">
             <!-- ハミングウォーター -->
             <?php elseif($link_id == 1042) : ?>
-            <a href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=1">
+            <a href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=44">
             <!-- 富士の湧水 -->
             <?php elseif($link_id == 452) : ?>
             <a href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=11">
-            <!-- 富士の湧水 -->
+            <!-- リセットタイム -->
             <?php elseif($link_id == 1304) : ?>
             <a
-            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/link?link_id=1304">
-            <?php endif; ?>
-            こちらをクリック</a>してください。
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=49">
+            <!-- amadanaウォーターサーバー -->
+            <?php elseif($link_id == 58) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=35">
+            <!-- アルピナウォーター -->
+            <?php elseif($link_id == 62) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=28">
+            <!-- うるのん -->
+            <?php elseif($link_id == 314) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=25">
+            <!-- ワンウェイウォーター -->
+            <?php elseif($link_id == 328) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=22">
+            <!-- エフィールウォーター -->
+            <?php elseif($link_id == 340) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=16">
+            <!-- クリスタルクリアウォーターズ -->
+            <?php elseif($link_id == 554) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=4">
+            <!-- Kirala -->
+            <?php elseif($link_id == 648) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=2">
+            <!-- ウォータースタンド -->
+            <?php elseif($link_id == 1009) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=45">
+            <!-- kiralafresh -->
+            <?php elseif($link_id == 1107) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=46">
+            <!-- ECOTTO -->
+            <?php elseif($link_id == 1123) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=47">
+            <!-- ウォーターワン -->
+            <?php elseif($link_id == 1137) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=48">
+            <!-- Locca -->
+            <?php elseif($link_id == 1332) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=50">
+            <!-- every frecious -->
+            <?php elseif($link_id == 1437) : ?>
+            <a
+            href="https://xn--u9jj6mma4dzcyg1obbb6302kt3ybp8q4p7h.jp/new.php?id=51">
+            <?php endif; ?>こちらをクリック</a>してください。
         </p>
     </div>
 

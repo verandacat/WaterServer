@@ -52,6 +52,15 @@
   $redirect[42] = "https://h.accesstrade.net/sp/cc?rk=0100j1yo00bizl"; //premium MAM club
   
   $redirect[43] = "https://h.accesstrade.net/sp/cc?rk=0100ia8b006pd3"; //frecious dewo
+  $redirect[44] = "https://click.j-a-net.jp/1180190/746542/"; //Humming
+  $redirect[45] = "https://cuest.net/link.php?i=pgi6kjqoff9q&m=mgirhzdrt1sg&kbp1=guide"; //ウォータースタンド
+  $redirect[46] = "https://h.accesstrade.net/sp/cc?rk=0100o0nv00bizl"; //Kirara Fresh
+  $redirect[47] = "https://h.accesstrade.net/sp/cc?rk=0100o0qo006pd3"; //ECOTTO
+  $redirect[48] = "https://tr.slvrbullet.com/cl/w0000209800/13984/7271/"; //ウォーターワン
+  $redirect[49] = "https://ac.breakthrough.host/cl/9b23f5cL3e02d65L/?bid=b1eEd7V2f65305Ea"; //ResetTIme
+  $redirect[50] = "https://h.accesstrade.net/sp/cc?rk=0100oab2006pd3"; //Locca
+  $redirect[51] = "https://h.accesstrade.net/sp/cc?rk=0100ol6e00bizl"; //Every frecious
+
 
 
   if( isset($_GET['id']) ){

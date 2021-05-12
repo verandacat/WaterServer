@@ -409,22 +409,21 @@ if (is_page("natural_water")) {//天然水
                                     <a target="_blank" href="<?php echo $url; ?>" rel="external nofollow"
                                         class="prrrr deco-none">
                                         <img class="no1 height125"
-                                            src="<?php bloginfo('template_directory'); ?>/img/aqua_250_250.jpg"
+                                            src="<?php bloginfo('template_directory'); ?>/img/cp_banner_125-125.jpg"
                                             alt="" style="width: 125px"></a>
-                                    <a href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/new.php?id=31" target="_blank"
-                                        class="prrrr">
-                                        <img class="no1 height125"
-                                            src="<?php bloginfo('template_directory'); ?>/img/kosodate_150-150.gif" alt=""
-                                            style="width: 125px"></a>
                                     <a target="_blank" href="<?php echo $url; ?>" rel="external nofollow"
                                         class="prrrr deco-none">
                                         <img class="no1 height125"
-                                            src="<?php bloginfo('template_directory'); ?>/img/fab.gif" alt=""
+                                            src="<?php bloginfo('template_directory'); ?>/img/kanamora125_125.gif" alt=""
                                             style="width: 125px">
-                                        <img class="no1 height125"
-                                            src="<?php bloginfo('template_directory'); ?>/img/with.gif" alt=""
-                                            style="width: 125px">
+                                        
                                     </a>
+                                    <a href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/new.php?id=31" target="_blank"
+                                        class="prrrr">
+                                        <img class="no1 height125"
+                                            src="<?php bloginfo('template_directory'); ?>/img/kosodate125_125.gif" alt=""
+                                            style="width: 125px"></a>
+                                    
                                 </div>
                                 <?php } ?>
                                 <?php if($post->ID == 334){ ?>
@@ -625,12 +624,7 @@ if (is_page("natural_water")) {//天然水
                         <?php }else if($post->ID == 334){ ?>
                         <!-- <div class="hidari"><img  class="no1 sp spimg" src="<?php bloginfo('template_directory'); ?>/img/cokyaku_s.jpg" alt=""></div> -->
                         <?php }else if($post->ID == 60){ ?>
-                        <a target="_blank" href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>"
-                            rel="external nofollow" class="prrrr">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/fab.gif" alt=""
-                                style="margin-top:5px;">
-                        </a>
-                        <br><img src="<?php bloginfo('template_directory'); ?>/img/g_type2018_b.jpg" alt="">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/g_type2018_b.jpg" alt="">
                         <?php if(0){ ?>
                         <a class="gd" target="_blank" href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/new.php?id=37"
                             rel="external nofollow">
@@ -721,20 +715,22 @@ if (is_page("natural_water")) {//天然水
                                         href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>"
                                         rel="external nofollow" class="prrrr">
                                         <img class="no1 sp no1_2"
-                                            src="<?php bloginfo('template_directory'); ?>/img/aqua_250_250.jpg"
+                                            src="<?php bloginfo('template_directory'); ?>/img/cp_banner_125-125.jpg"
                                             alt=""></a>
-                                    <a href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/new.php?id=31" target="_blank"
-                                        class="prrrr">
-                                        <img class="no1 sp no1_2"
-                                            src="<?php bloginfo('template_directory'); ?>/img/kosodate_150-150.gif" alt=""
-                                            style="margin-left: 5px;"></a>
+                                    
                                     <a target="_blank"
                                         href="<?php bloginfo('url'); ?>/link?link_id=<?php echo $post->ID; ?>"
                                         rel="external nofollow" class="prrrr">
                                         <img class="no1 sp no1_2"
-                                            src="<?php bloginfo('template_directory'); ?>/img/with.gif" alt=""
+                                            src="<?php bloginfo('template_directory'); ?>/img/kanamora125_125.gif" alt=""
                                             style="margin-left: 5px;">
                                     </a>
+
+                                    <a href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/new.php?id=31" target="_blank"
+                                        class="prrrr">
+                                        <img class="no1 sp no1_2"
+                                            src="<?php bloginfo('template_directory'); ?>/img/kosodate125_125.gif" alt=""
+                                            style="margin-left: 5px;"></a>
                                 </div>
                                 <?php } ?>
                                 <?php if($post->ID == 334){ ?>

@@ -251,23 +251,22 @@ $(window).load(function() {
                                     <a target="_blank" href="<?php echo $url; ?>" rel="external nofollow"
                                         class="prrrr deco-none">
                                         <img class="no1 height125"
-                                            src="<?php bloginfo('template_directory'); ?>/img/aqua_250_250.jpg"
+                                            src="<?php bloginfo('template_directory'); ?>/img/cp_banner_125-125.jpg"
                                             alt="" style="width: 125px"></a>
-                                    <a href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/new.php?id=31" target="_blank"
-                                        class="prrrr deco-none">
-                                        <img class="no1 height125"
-                                            src="<?php bloginfo('template_directory'); ?>/img/kosodate_150-150.gif" alt=""
-                                            style="width: 125px"></a>
-
+                               
                                     <a target="_blank" href="<?php echo $url; ?>" rel="external nofollow"
                                         class="prrrr deco-none">
                                         <img class="no1 height125"
-                                            src="<?php bloginfo('template_directory'); ?>/img/fab.gif" alt=""
+                                            src="<?php bloginfo('template_directory'); ?>/img/kanamora125_125.gif" alt=""
                                             style="width: 125px">
-                                        <img class="no1 height125"
-                                            src="<?php bloginfo('template_directory'); ?>/img/with.gif" alt=""
-                                            style="width: 125px">
+                                      
                                     </a>
+                                    <a href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/new.php?id=31" target="_blank"
+                                        class="prrrr deco-none">
+                                        <img class="no1 height125"
+                                            src="<?php bloginfo('template_directory'); ?>/img/kosodate125_125.gif" alt=""
+                                            style="width: 125px"></a>
+
                                 </div>
                                 <?php } ?>
                                 <?php if($post->ID == 334){ ?>

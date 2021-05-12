@@ -77,7 +77,7 @@
 
         <a href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/link?link_id=60" class="prrrr b2 spbanner"
             target="_blank">
-            <img src="<?php bloginfo('template_directory'); ?>/img/aqua_600.jpg" alt="アクアクララ AQUA FAB" width="100%"></a>
+            <img src="<?php bloginfo('template_directory'); ?>/img/aqua_210511-600_600.jpg" alt="アクアクララ AQUA FAB" width="100%"></a>
 
 
         <a href="<?php bloginfo('url'); ?>/premium-water/" class="b2 spbanner" target="_blank">

@@ -86,7 +86,7 @@ if (is_page('天然水')) {
     </a>
 
     <a href="https://xn--q9js5mma4dzcyg1obbb2842gb1zd.com/link?link_id=60" id="banner_ranking_sub" class="prrrr"
-        target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/aqua_600.jpg"
+        target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/aqua_210511-600_600.jpg"
             alt="アクアクララ AQUA FAB" width="230" height="auto" /></a>
 
     <a href="<?php bloginfo('url'); ?>/premium-water/" id="banner_ranking_sub" target="_blank"><img
